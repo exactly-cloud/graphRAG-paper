@@ -1,0 +1,1160 @@
+{
+  "task": "yesno",
+  "data": "safety_yesno",
+  "summary": {
+    "llm": {
+      "acc": 0.375,
+      "n": 40,
+      "unparsed": 0,
+      "sec": 27.8
+    },
+    "vector": {
+      "acc": 0.25,
+      "n": 40,
+      "unparsed": 0,
+      "sec": 32.3
+    },
+    "graph": {
+      "acc": 0.45,
+      "n": 40,
+      "unparsed": 0,
+      "sec": 21.4
+    },
+    "hybrid": {
+      "acc": 0.425,
+      "n": 40,
+      "unparsed": 0,
+      "sec": 31.7
+    }
+  },
+  "details": {
+    "llm": [
+      {
+        "id": "safety_0002",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0003",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0004",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0005",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0009",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0011",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0013",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0015",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0016",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0018",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0019",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0022",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0023",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0025",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0026",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0029",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0031",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0032",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0033",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0035",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0036",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0039",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0040",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0041",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0046",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0052",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0053",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0057",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0059",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0061",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0062",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0064",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0067",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0070",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0071",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0073",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0074",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0075",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0076",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0080",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      }
+    ],
+    "vector": [
+      {
+        "id": "safety_0002",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0003",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0004",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0005",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0009",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0011",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0013",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0015",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0016",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0018",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0019",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0022",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0023",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0025",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0026",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0029",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0031",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0032",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0033",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0035",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0036",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0039",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0040",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0041",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0046",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0052",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0053",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0057",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0059",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0061",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0062",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0064",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0067",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0070",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0071",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0073",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0074",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0075",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0076",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0080",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      }
+    ],
+    "graph": [
+      {
+        "id": "safety_0002",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0003",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0004",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0005",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0009",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0011",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0013",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0015",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0016",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0018",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0019",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0022",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0023",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0025",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0026",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0029",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0031",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0032",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0033",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0035",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0036",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0039",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0040",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0041",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0046",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0052",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0053",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0057",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0059",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0061",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0062",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0064",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0067",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0070",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0071",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0073",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0074",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0075",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0076",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0080",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "safety_0002",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0003",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0004",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0005",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0009",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0011",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0013",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0015",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0016",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0018",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0019",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0022",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0023",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0025",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0026",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0029",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0031",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0032",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0033",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0035",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0036",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0039",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0040",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0041",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0046",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0052",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0053",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0057",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0059",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0061",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0062",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "safety_0064",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0067",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0070",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0071",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0073",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0074",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0075",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0076",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "safety_0080",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      }
+    ]
+  }
+}

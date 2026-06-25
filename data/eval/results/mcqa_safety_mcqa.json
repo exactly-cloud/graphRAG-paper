@@ -1,0 +1,3064 @@
+{
+  "task": "mcqa",
+  "data": "safety_mcqa",
+  "summary": {
+    "llm": {
+      "acc": 0.5648,
+      "n": 108,
+      "unparsed": 0,
+      "sec": 68.0
+    },
+    "vector": {
+      "acc": 0.4444,
+      "n": 108,
+      "unparsed": 0,
+      "sec": 74.5
+    },
+    "graph": {
+      "acc": 0.6944,
+      "n": 108,
+      "unparsed": 0,
+      "sec": 70.1
+    },
+    "hybrid": {
+      "acc": 0.6204,
+      "n": 108,
+      "unparsed": 0,
+      "sec": 87.6
+    }
+  },
+  "details": {
+    "llm": [
+      {
+        "id": "safety_0001",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0006",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0007",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0008",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0010",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0012",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0014",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0017",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0020",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0021",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0024",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0027",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0028",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0030",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0034",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0037",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0038",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0042",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0043",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0044",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0045",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0047",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0048",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0049",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0050",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0051",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0054",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0055",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0056",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0058",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0060",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0063",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0065",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0066",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0068",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0069",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0072",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0077",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0078",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0079",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0082",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0085",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0090",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0092",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0093",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0096",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0102",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0103",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0107",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0108",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0110",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0112",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0113",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0114",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0115",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0116",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0118",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0121",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0123",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0124",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0127",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0129",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0130",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0132",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0136",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0145",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0146",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0147",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0148",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0152",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0155",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0157",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0158",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0160",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0166",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0168",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0169",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0170",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0176",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0179",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0182",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0184",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0186",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0187",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0191",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0193",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0195",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0196",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0197",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0206",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0207",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0208",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0210",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0214",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0215",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0220",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0222",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0224",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0225",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0227",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0228",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0232",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0233",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0234",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0235",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0241",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0242",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0243",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      }
+    ],
+    "vector": [
+      {
+        "id": "safety_0001",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0006",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0007",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0008",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0010",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0012",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0014",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0017",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0020",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0021",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0024",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0027",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0028",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0030",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0034",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0037",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0038",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0042",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0043",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0044",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0045",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0047",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0048",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0049",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0050",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0051",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0054",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0055",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0056",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0058",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0060",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0063",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0065",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0066",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0068",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0069",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0072",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0077",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0078",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0079",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0082",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0085",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0090",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0092",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0093",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0096",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0102",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0103",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0107",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0108",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0110",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0112",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0113",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0114",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0115",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0116",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0118",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0121",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0123",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0124",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0127",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0129",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0130",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0132",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0136",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0145",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0146",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0147",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0148",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0152",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0155",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0157",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0158",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0160",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0166",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0168",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0169",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0170",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0176",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0179",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0182",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0184",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0186",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0187",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0191",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0193",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0195",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0196",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0197",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0206",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0207",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0208",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0210",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0214",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0215",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0220",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0222",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0224",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0225",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0227",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0228",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0232",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0233",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0234",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0235",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0241",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0242",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0243",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      }
+    ],
+    "graph": [
+      {
+        "id": "safety_0001",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0006",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0007",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0008",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0010",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0012",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0014",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0017",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0020",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0021",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0024",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0027",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0028",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0030",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0034",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0037",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0038",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0042",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0043",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0044",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0045",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0047",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0048",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0049",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0050",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0051",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0054",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0055",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0056",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0058",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0060",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0063",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0065",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0066",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0068",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0069",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0072",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0077",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0078",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0079",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0082",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0085",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0090",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0092",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0093",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0096",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0102",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0103",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0107",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0108",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0110",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0112",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0113",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0114",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0115",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0116",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0118",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0121",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0123",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0124",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0127",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0129",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0130",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0132",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0136",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0145",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0146",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0147",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0148",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0152",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0155",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0157",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0158",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0160",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0166",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0168",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0169",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0170",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0176",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0179",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0182",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0184",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0186",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0187",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0191",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0193",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0195",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0196",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0197",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0206",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0207",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0208",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0210",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0214",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0215",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0220",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0222",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0224",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0225",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0227",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0228",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0232",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0233",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0234",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0235",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0241",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0242",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0243",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "safety_0001",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0006",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0007",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0008",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0010",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0012",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0014",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0017",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0020",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0021",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0024",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0027",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0028",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0030",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0034",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0037",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0038",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0042",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0043",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0044",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0045",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0047",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0048",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0049",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0050",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0051",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0054",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0055",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0056",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0058",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0060",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0063",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "A"
+      },
+      {
+        "id": "safety_0065",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0066",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0068",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0069",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0072",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0077",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0078",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0079",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0082",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0085",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0090",
+        "pred": "D",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0092",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0093",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0096",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0102",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0103",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0107",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0108",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0110",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0112",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0113",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0114",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0115",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0116",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0118",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0121",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0123",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0124",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0127",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0129",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0130",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0132",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0136",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0145",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0146",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0147",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0148",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0152",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0155",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0157",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0158",
+        "pred": "C",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0160",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0166",
+        "pred": "B",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0168",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "C"
+      },
+      {
+        "id": "safety_0169",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0170",
+        "pred": "C",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0176",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0179",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0182",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0184",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0186",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0187",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0191",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0193",
+        "pred": "C",
+        "gold": "A",
+        "correct": false,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0195",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0196",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0197",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0206",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0207",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0208",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0210",
+        "pred": "D",
+        "gold": "D",
+        "correct": true,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0214",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "Answer: B"
+      },
+      {
+        "id": "safety_0215",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0220",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0222",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0224",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0225",
+        "pred": "A",
+        "gold": "A",
+        "correct": true,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0227",
+        "pred": "D",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: D"
+      },
+      {
+        "id": "safety_0228",
+        "pred": "A",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0232",
+        "pred": "A",
+        "gold": "C",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0233",
+        "pred": "B",
+        "gold": "C",
+        "correct": false,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0234",
+        "pred": "A",
+        "gold": "B",
+        "correct": false,
+        "raw": "Answer: A"
+      },
+      {
+        "id": "safety_0235",
+        "pred": "D",
+        "gold": "A",
+        "correct": false,
+        "raw": "D"
+      },
+      {
+        "id": "safety_0241",
+        "pred": "C",
+        "gold": "C",
+        "correct": true,
+        "raw": "Answer: C"
+      },
+      {
+        "id": "safety_0242",
+        "pred": "B",
+        "gold": "B",
+        "correct": true,
+        "raw": "B"
+      },
+      {
+        "id": "safety_0243",
+        "pred": "B",
+        "gold": "D",
+        "correct": false,
+        "raw": "Answer: B"
+      }
+    ]
+  }
+}

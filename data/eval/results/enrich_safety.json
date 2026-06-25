@@ -1,0 +1,1211 @@
+{
+  "summary": {
+    "llm": {
+      "violation_rate": 0.087,
+      "prov_rate": 0.0,
+      "avg_attempts": 1.0,
+      "avg_concepts": 6.17,
+      "avg_judge": 4.43,
+      "n": 23,
+      "sec": 190.4
+    },
+    "vector": {
+      "violation_rate": 0.0435,
+      "prov_rate": 1.0,
+      "avg_attempts": 1.0,
+      "avg_concepts": 4.78,
+      "avg_judge": 4.04,
+      "n": 23,
+      "sec": 160.2
+    },
+    "graph": {
+      "violation_rate": 0.0,
+      "prov_rate": 1.0,
+      "avg_attempts": 1.0,
+      "avg_concepts": 11.17,
+      "avg_judge": 3.78,
+      "n": 23,
+      "sec": 214.5
+    },
+    "hybrid": {
+      "violation_rate": 0.087,
+      "prov_rate": 1.0,
+      "avg_attempts": 1.0,
+      "avg_concepts": 7.35,
+      "avg_judge": 4.17,
+      "n": 23,
+      "sec": 203.8
+    },
+    "full": {
+      "violation_rate": 0.0,
+      "prov_rate": 1.0,
+      "avg_attempts": 1.0,
+      "avg_concepts": 5.78,
+      "avg_judge": 4.39,
+      "n": 23,
+      "sec": 540.6
+    }
+  },
+  "details": {
+    "llm": [
+      {
+        "id": "open_0",
+        "condition": "Diabetic Ketoacidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "**Answer: Insulin therapy (intravenous insulin infusion, followed by subcutaneous basal-bolus regimen).**\n\n**Brief Rationale:**  \nDiabetic ketoacidosis (DKA) is a life-threatening acute complication of diabetes characterized by severe insulin deficiency, hyperglycemia, and ketosis. In this setting, **insulin is the essential and immediate glucose-lowering medication** because it:\n1. Rapidly lowers blood glucose by facilitating cellular uptake.\n2. Suppresses ketone production in the liver.\n3. Reverses acidosis by stopping lipolysis and free fatty acid release.\n\nOral or non-insulin injectable agents are **not appropriate** for initial DKA management due to slow onset, lack of efficacy in severe insulin deficiency, and potential contraindications (e.g., volume depletion, renal stress). The standard approach is **continuous intravenous insulin infusion** until DKA resolves, followed by transition to a subcutaneous basal-bolus insulin regimen for ongoing glucose control."
+      },
+      {
+        "id": "open_1",
+        "condition": "Diabetes Mellitus, Type 1",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "**Answer:**  \nGiven the patient’s dual diagnoses of type 2 diabetes mellitus (T2DM) and type 1 diabetes mellitus (T1DM), the primary treatment priority is addressing the absolute insulin deficiency of T1DM. Therefore, the essential glucose-lowering medication to start is **basal insulin** (e.g., insulin glargine, insulin detemir, or insulin degludec).\n\n**Brief rationale:**  \n- T1DM requires lifelong exogenous insulin to prevent diabetic ketoacidosis and manage hyperglycemia.  \n- Even with coexisting T2DM (which may involve insulin resistance), the cornerstone of therapy for T1DM remains insulin replacement.  \n- Starting with basal insulin addresses fasting and between-meal glucose levels, forming a foundation to which mealtime insulin and/or non-insulin agents (e.g., metformin, if needed for insulin resistance) can later be added based on glucose patterns and clinical response.  \n\n**Important note:** This recommendation assumes the diagnosis of T1DM is confirmed (e.g., positive autoantibodies, clinical presentation). If there is uncertainty about the classification, further evaluation is needed before finalizing therapy."
+      },
+      {
+        "id": "open_2",
+        "condition": "Digestive System Abnormalities",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 9,
+        "judge": 3,
+        "answer": "For this patient with type 2 diabetes and digestive system abnormalities, **liraglutide (a GLP-1 receptor agonist)** is a recommended first-choice glucose-lowering medication to start.\n\n**Brief Rationale:**\n1. **Gastrointestinal Benefits:** GLP-1 agonists slow gastric emptying and can improve gut motility, which may be beneficial for certain digestive abnormalities (e.g., gastroparesis-like symptoms common in diabetes). They also promote weight loss, which can alleviate symptoms of GERD or other obesity-related digestive issues.\n2. **Low Hypoglycemia Risk:** When used alone, they carry a minimal risk of hypoglycemia, which is safer for patients who may have irregular eating patterns due to digestive problems.\n3. **Avoids GI Side Effects of Other Agents:** Unlike metformin (which commonly causes diarrhea, cramping, and nausea) or SGLT2 inhibitors (which may increase genital mycotic infections and, rarely, diabetic ketoacidosis), liraglutide’s main side effect—transient nausea—often diminishes over time and may be managed with dose titration.\n\n**Note:** The specific digestive abnormality should be confirmed, as severe gastroparesis may require caution with GLP-1 agonists. However, for many common digestive issues (e.g., GERD, irritable bowel syndrome), liraglutide is often suitable and provides additional cardiovascular benefits. Always tailor the choice to the patient’s full clinical profile."
+      },
+      {
+        "id": "open_3",
+        "condition": "Multiple Endocrine Neoplasia Type 2a",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "In this case, **GLP-1 receptor agonists (e.g., liraglutide, semaglutide)** would be the most appropriate first choice for glucose lowering.\n\n**Brief rationale:**\n1. **Avoidance of insulin secretagogues:** Given MEN2a (which includes medullary thyroid carcinoma risk), medications that strongly stimulate insulin secretion (like sulfonylureas) could theoretically co-stimulate other hormone-secreting tumors and are less ideal.\n2. **Cardiometabolic benefits:** GLP-1 RAs support weight loss (often beneficial in T2DM) and have proven cardiovascular benefits, which is important as cardiovascular disease is a leading cause of morbidity in diabetes.\n3. **Low hypoglycemia risk:** They do not typically cause hypoglycemia when used alone.\n4. **No direct interference with MEN2a management:** They work via gut-derived mechanisms and do not exacerbate risks associated with MEN2a components (e.g., pheochromocytoma, hyperparathyroidism), assuming any pheochromocytoma is appropriately managed prior.\n\n**Important note:** This recommendation assumes standard diabetes management considerations (e.g., HbA1c, renal function, cardiovascular status) and that the patient’s MEN2a-associated conditions (especially pheochromocytoma) are controlled. Always individualize therapy and coordinate with endocrinology."
+      },
+      {
+        "id": "open_4",
+        "condition": "Thyroid Neoplasms",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "Based on the patient's profile with type 2 diabetes and a history of thyroid neoplasms, the recommended initial glucose-lowering medication is **metformin**.\n\n**Brief Rationale:**\n\n1.  **No Adverse Effect on Thyroid:** Metformin has no known association with promoting or exacerbating thyroid tumors. It works primarily by reducing hepatic glucose production and improving insulin sensitivity in the periphery, mechanisms unrelated to thyroid function.\n2.  **First-Line Standard of Care:** It remains the foundational, first-line pharmacological therapy for most patients with type 2 diabetes due to its efficacy, favorable cardiovascular profile, and generally good safety record.\n3.  **Avoidance of SGLT2 Inhibitors:** While SGLT2 inhibitors (e.g., empagliflozin, dapagliflozin) are excellent agents, they carry a very rare but documented risk of provoking medullary thyroid carcinoma in rodent studies. This has led to a precaution in their prescribing information, making them a less ideal *first* choice in this specific clinical scenario.\n4.  **Caution with GLP-1 RAs:** GLP-1 receptor agonists (e.g., semaglutide, liraglutide) also carry a precaution regarding thyroid C-cell tumors (medullary thyroid carcinoma) in rodent studies. They are contraindicated in patients with a personal or family history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2. Without definitive knowledge of the specific type and family history related to the patient's \"Thyroid Neoplasms,\" it is prudent to avoid GLP-1 RAs as the initial choice until that history is clarified.\n\n**Important Consideration:** The specific type of thyroid neoplasm (e.g., benign vs. malignant, papillary vs. medullary) and the patient's family history are critical. A more detailed history is needed to fully assess the safety profile of other medication classes. Metformin provides a safe and effective starting point while this information is"
+      },
+      {
+        "id": "open_5",
+        "condition": "Kidney Failure, Chronic",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "For this patient with type 2 diabetes and chronic kidney failure, the recommended initial glucose-lowering medication is a **SGLT2 inhibitor (specifically empagliflozin or dapagliflozin)**.\n\n**Brief Rationale:**\n1.  **Cardiorenal Protection:** SGLT2 inhibitors (empagliflozin and dapagliflozin) have robust evidence from large clinical trials (EMPA-KIDNEY, DAPA-CKD) demonstrating they slow the progression of chronic kidney disease and reduce the risk of hospitalization for heart failure, independent of their glucose-lowering effect. This makes them a first-line choice in patients with diabetic kidney disease.\n2.  **Safety in CKD:** They can be used safely with dose adjustment across a wide range of kidney function, including in patients with an eGFR as low as 20 mL/min/1.73 m² for empagliflozin (and 25 for dapagliflozin).\n3.  **Alternative - GLP-1 RA:** A GLP-1 receptor agonist (e.g., semaglutide, dulaglutide) would be a very strong alternative or addition, especially if atherosclerotic cardiovascular disease or significant weight loss is a concurrent goal. They also offer renal benefit, primarily by reducing albuminuria.\n\n**Important Considerations Before Starting:**\n*   Ensure the patient is not volume-depleted to minimize the risk of initial hypotension.\n*   Monitor for genital mycotic infections (a known side effect).\n*   The choice between an SGLT2i and a GLP-1 RA should be individualized based on the patient's specific cardiovascular risk profile, need for weight loss, and personal preferences (injectable vs. oral). However, given the diagnosis of **chronic kidney failure**, the SGLT2 inhibitors have the most direct evidence for renal protection."
+      },
+      {
+        "id": "open_6",
+        "condition": "Liver Diseases",
+        "violation": true,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 3,
+        "judge": 3,
+        "answer": "**Recommended medication: Pioglitazone**  \n\n**Brief rationale:**  \nIn a patient with type 2 diabetes and coexisting liver disease (particularly non-alcoholic fatty liver disease, NAFLD), pioglitazone is often considered a suitable choice because it improves insulin sensitivity and has been shown to reduce liver fat and inflammation in NAFLD. Importantly, it is not primarily metabolized by the liver and does not require dose adjustment in hepatic impairment, unlike some other oral agents (e.g., metformin caution in advanced liver disease due to lactate risk, or sulfonylureas risk of hypoglycemia). However, it should be avoided in patients with active liver disease or significant hepatic impairment if there is evidence of liver failure. Always assess liver function before and during treatment."
+      },
+      {
+        "id": "open_7",
+        "condition": "Pregnancy",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "For this patient with type 2 diabetes mellitus who is pregnant, the recommended glucose-lowering medication to start is **insulin**.\n\n**Brief rationale:**\nInsulin is the standard of care for managing hyperglycemia during pregnancy because it does not cross the placenta in significant amounts, making it safe for the fetus. Oral agents like metformin or sulfonylureas may cross the placenta, and their long-term safety profiles for the developing baby are less established. Insulin allows for precise, titratable control to achieve strict glycemic targets essential for reducing risks of fetal complications (e.g., macrosomia, congenital anomalies, neonatal hypoglycemia)."
+      },
+      {
+        "id": "open_8",
+        "condition": "Hypoglycemia",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "For a patient with type 2 diabetes and a history of hypoglycemia, the recommended initial glucose-lowering medication is **metformin**.\n\n**Brief rationale:**  \nMetformin is a first-line therapy for type 2 diabetes that lowers blood glucose primarily by reducing hepatic glucose production and improving insulin sensitivity. Importantly, **it does not stimulate insulin secretion**, so when used alone (without other medications like sulfonylureas or insulin), it carries a **very low risk of hypoglycemia**. This makes it a safe choice for patients prone to low blood sugar. It also has benefits such as potential weight neutrality or mild weight loss, and a long-established safety profile.\n\n**Note:** Always start at a low dose and titrate gradually to minimize gastrointestinal side effects, and ensure renal function is adequate (eGFR ≥30 mL/min/1.73 m²). Lifestyle modifications should be reinforced alongside pharmacotherapy."
+      },
+      {
+        "id": "open_9",
+        "condition": "Malabsorption Syndromes",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "For this patient with type 2 diabetes and malabsorption syndromes, the recommended initial glucose-lowering medication is a **GLP-1 receptor agonist (e.g., liraglutide, semaglutide, dulaglutide)**.\n\n**Brief rationale:**\n1. **Non-oral route:** Administered via subcutaneous injection, bypassing the gastrointestinal tract. This avoids reliance on intestinal absorption, which is impaired in malabsorption syndromes, ensuring predictable and consistent drug delivery.\n2. **Low hypoglycemia risk:** When used without insulin or sulfonylureas, GLP-1 agonists have a minimal risk of hypoglycemia, which is important given potential nutritional instability.\n3. **Potential GI effects:** While they can cause transient nausea, they do not exacerbate malabsorption. Some agents (e.g., semaglutide) may slow gastric emptying, but this is typically manageable and does not worsen the underlying malabsorptive defect.\n4. **Additional benefits:** They promote weight loss (often beneficial in type 2 diabetes) and have proven cardiovascular benefits.\n\n**Key alternative to consider:** Insulin therapy is also effective and not affected by malabsorption, but it carries a higher risk of hypoglycemia and requires more intensive monitoring. A GLP-1 agonist is often preferred first in this scenario due to its broader therapeutic profile and ease of use."
+      },
+      {
+        "id": "open_10",
+        "condition": "Multiple Endocrine Neoplasia Type 2b",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 6,
+        "judge": 3,
+        "answer": "**Recommendation: GLP-1 Receptor Agonist (e.g., liraglutide or semaglutide)**  \n\n**Brief Rationale:**  \n1. **No risk of medullary thyroid cancer:** Patients with Multiple Endocrine Neoplasia Type 2b (MEN2b) have a high risk of medullary thyroid carcinoma (MTC). GLP-1 receptor agonists have a **boxed warning** for thyroid C-cell tumors in rodents, but this has not been confirmed in humans. However, due to the patient's underlying MEN2b predisposition, alternative agents without any theoretical thyroid risk (like SGLT2 inhibitors or DPP-4 inhibitors) could also be considered. However, GLP-1 agonists are preferred here for their strong glucose-lowering and weight loss benefits without causing hypoglycemia.  \n2. **Cardiovascular benefits:** Many GLP-1 agonists reduce cardiovascular events, which is important given the increased cardiovascular risk in diabetes.  \n3. **Weight loss:** Beneficial in type 2 diabetes, especially if the patient is overweight.  \n4. **Avoidance of insulin secretagogues:** MEN2b can include pheochromocytoma (though screened for), so medications that might exacerbate catecholamine effects (e.g., sulfonylureas causing hypoglycemia and potential sympathetic activation) are less ideal.  \n\n**Important caveat:** If there is active or history of MTC in this patient, GLP-1 agonists are contraindicated. In that case, an **SGLT2 inhibitor** (e.g., empagliflozin) would be a suitable alternative, given its cardiovascular/renal benefits and no thyroid risk.  \n\n**Final choice:** Assuming no active MTC, start a **GLP-1 receptor agonist** with monitoring."
+      },
+      {
+        "id": "open_11",
+        "condition": "Liver Cirrhosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "**Recommended Medication: Insulin (e.g., basal insulin like insulin glargine or insulin detemir)**  \n\n**Brief Rationale:**  \nIn patients with type 2 diabetes and **liver cirrhosis**, many oral glucose-lowering medications are contraindicated or require dose adjustments due to reduced hepatic metabolism, increased risk of hypoglycemia, or potential for worsening liver injury. Insulin is often the safest and most effective choice because:  \n\n1. **Hepatic metabolism is not required** – Insulin is cleared primarily by the kidneys and peripheral tissues, making it safe in cirrhosis.  \n2. **Avoids hepatotoxicity** – Unlike some oral agents (e.g., thiazolidinediones, some sulfonylureas), insulin does not cause drug-induced liver injury.  \n3. **Precise titration** – Insulin dosing can be carefully adjusted based on glucose monitoring, which is important in cirrhosis where hypoglycemia risk is increased due to impaired gluconeogenesis.  \n\n**Important considerations:**  \n- Start with a low dose (e.g., 0.1–0.2 units/kg of basal insulin daily) and titrate slowly.  \n- Monitor closely for hypoglycemia, especially if the patient has erratic oral intake or impaired kidney function.  \n- Avoid oral medications like metformin (risk of lactic acidosis in advanced liver disease) and sulfonylureas (prolonged hypoglycemia).  \n\nThus, insulin provides a controllable and liver-safe approach to glycemic management in this complex patient."
+      },
+      {
+        "id": "open_12",
+        "condition": "Colitis, Ulcerative",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 6,
+        "judge": 4,
+        "answer": "For this patient with type 2 diabetes and ulcerative colitis (UC), I recommend starting **a GLP-1 receptor agonist (e.g., semaglutide or liraglutide)**.\n\n**Brief Rationale:**\n\n1.  **No Exacerbation of Colitis:** GLP-1 RAs are not associated with worsening inflammatory bowel disease. They are systemic agents that work primarily on pancreatic beta cells, gastric emptying, and the brain's appetite centers. They do not have a direct local irritant effect on the gastrointestinal mucosa, unlike some oral medications.\n\n2.  **Avoids Potential Triggers:** It is prudent to avoid medications that could potentially exacerbate UC. For example:\n    *   **Metformin** commonly causes GI upset (diarrhea, cramping), which could be confused with or aggravate UC symptoms.\n    *   **SGLT2 inhibitors** may slightly increase the risk of genital mycotic infections and, rarely, could be associated with a risk of euglycemic DKA during periods of illness or flares where oral intake is poor.\n    *   **DPP-4 inhibitors** are generally safe but have a very low potential association with rare cases of IBD exacerbation in post-marketing data, making them a possible second-line choice.\n\n3.  **Additional Benefits:** GLP-1 RAs offer significant benefits highly relevant to this patient population:\n    *   **Weight loss**, which is often beneficial in type 2 diabetes and does not carry the weight gain risk seen with insulin or sulfonylureas.\n    *   **Cardiovascular and renal protection**, which are important considerations for long-term diabetes management.\n\n**Important Note:** GLP-1 RAs can cause transient nausea and vomiting, especially during dose escalation. This should be managed with a slow, gradual dose titration. The patient should be monitored for any changes in UC symptoms, though these agents are not considered a trigger for flares.\n\n**Conclusion:** A GLP"
+      },
+      {
+        "id": "open_13",
+        "condition": "Intestinal Pseudo-Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 8,
+        "judge": 5,
+        "answer": "**Recommended Medication: Glucagon-like peptide-1 (GLP-1) receptor agonist (e.g., liraglutide or semaglutide).**\n\n**Brief Rationale:**\n\n1. **Mechanism:** GLP-1 agonists work by stimulating insulin secretion and suppressing glucagon release in a glucose-dependent manner, slowing gastric emptying, and promoting satiety. This class does not rely on gastrointestinal motility for absorption or action.\n2. **Key Benefit for Intestinal Pseudo-Obstruction:** They are administered via subcutaneous injection, completely bypassing the gastrointestinal tract. This avoids any risk of exacerbating the pseudo-obstruction (a condition of impaired intestinal motility) that could occur with oral medications that might accumulate or cause further dysmotility.\n3. **Additional Advantages:** They promote moderate weight loss and have a low risk of hypoglycemia when used without insulin or sulfonylureas. They also have proven cardiovascular benefits in patients with established cardiovascular disease.\n\n**Important Considerations:**\n- While GLP-1 agonists slow gastric emptying, this effect is generally mild and often attenuates over time. It is a pharmacological action, distinct from the underlying neuropathic/mechanical dysmotility of pseudo-obstruction. However, the patient should be monitored for any worsening of gastrointestinal symptoms.\n- Alternative injectable options like insulin would also bypass the gut, but a GLP-1 agonist is preferred as initial therapy in this context due to its lower hypoglycemia risk, weight benefit, and cardiovascular protection, unless the patient has very high glucose levels requiring immediate, potent insulin action.\n\n**Therefore, a GLP-1 receptor agonist is the most appropriate initial choice as it effectively lowers glucose without interfering with the compromised intestinal tract.**"
+      },
+      {
+        "id": "open_14",
+        "condition": "Renal Insufficiency",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "**Recommended Medication: Linagliptin (a DPP-4 inhibitor)**  \n\n**Brief Rationale:**  \n- **Renal Safety:** Linagliptin is primarily excreted via the bile and gut, with minimal renal excretion (<7%). Unlike other DPP-4 inhibitors, it does not require dose adjustment in any stage of renal impairment, including end-stage renal disease.  \n- **Efficacy:** It provides effective glucose lowering by increasing incretin levels (GLP-1 and GIP), stimulating insulin release, and reducing glucagon secretion in a glucose-dependent manner, which lowers the risk of hypoglycemia.  \n- **Safety Profile:** Well-tolerated with a low risk of hypoglycemia, weight gain, or significant drug interactions, making it suitable for patients with renal insufficiency.  \n\n**Note:** Always consider individual patient factors (e.g., glycemic control, comorbidities, cost) and consult current clinical guidelines."
+      },
+      {
+        "id": "open_15",
+        "condition": "Acidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "**Recommendation: Insulin therapy**\n\n**Brief rationale:**  \nIn a patient with type 2 diabetes and acidosis (likely diabetic ketoacidosis or severe metabolic acidosis), immediate and effective glucose lowering is critical. Insulin is the preferred initial agent because it:\n\n1. Rapidly lowers blood glucose and suppresses ketogenesis.\n2. Corrects acidosis by halting the production of ketoacids.\n3. Can be titrated precisely in an acute setting.\n4. Oral agents or non-insulin injectables are not appropriate in this acute, unstable condition due to slower onset, contraindications, or variable efficacy.\n\n*Note: This requires urgent medical management, often with intravenous insulin and electrolyte monitoring in a hospital setting.*"
+      },
+      {
+        "id": "open_16",
+        "condition": "Heart Failure",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "**Recommended medication: SGLT2 inhibitor (e.g., empagliflozin, dapagliflozin)**  \n\n**Brief rationale:**  \nIn a patient with type 2 diabetes and heart failure, an SGLT2 inhibitor is preferred because it not only lowers blood glucose but also provides proven cardiovascular and renal benefits. Clinical trials have shown that SGLT2 inhibitors reduce the risk of hospitalization for heart failure and slow the progression of renal disease, making them particularly suitable for this patient profile. They also promote modest weight loss and have a low risk of hypoglycemia when used alone."
+      },
+      {
+        "id": "open_17",
+        "condition": "Kidney Diseases",
+        "violation": true,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 8,
+        "judge": 5,
+        "answer": "For this patient with type 2 diabetes and chronic kidney disease (CKD), the recommended initial glucose-lowering medication is a **SGLT2 inhibitor (e.g., empagliflozin, canagliflozin, or dapagliflozin)**, provided their estimated glomerular filtration rate (eGFR) is ≥20 mL/min/1.73 m² (specific agents have varying thresholds).\n\n**Brief Rationale:**\n1.  **Cardiorenal Protection:** SGLT2 inhibitors have robust evidence from large cardiovascular outcome trials (e.g., EMPA-REG OUTCOME, CREDENCE, DAPA-CKD) demonstrating significant benefits in slowing the progression of CKD and reducing the risk of hospitalization for heart failure and major cardiovascular events in patients with type 2 diabetes and established or high-risk for cardiovascular/renal disease.\n2.  **Renal Safety:** They are effective and safe in the setting of reduced kidney function (with dose adjustments as eGFR declines). Their glucose-lowering efficacy diminishes as kidney function decreases, but their cardiorenal protective effects remain.\n3.  **Guideline Alignment:** Major guidelines (ADA/EASD, KDIGO) recommend SGLT2 inhibitors as first-line therapy for patients with type 2 diabetes and CKD, irrespective of HbA1c or metformin use, due to these organ-protective benefits.\n\n**Important Considerations Before Starting:**\n*   Assess volume status to mitigate the risk of initial dehydration or hypotension.\n*   Monitor for genital mycotic infections (a common side effect).\n*   Review medications (e.g., adjust diuretic dose if needed).\n*   Confirm the specific agent's approved eGFR threshold (e.g., dapagliflozin is approved down to eGFR 25 mL/min/1.73 m² for diabetes, and lower for CKD/heart failure indications).\n\n**Alternative:** If an SGLT2 inhibitor is not appropriate (e.g., eGFR"
+      },
+      {
+        "id": "open_18",
+        "condition": "Carcinoma, Medullary",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 7,
+        "judge": 4,
+        "answer": "For this patient with type 2 diabetes mellitus and medullary thyroid carcinoma (MTC), the recommended glucose-lowering medication to start is a **GLP-1 receptor agonist (e.g., liraglutide, semaglutide, dulaglutide)**.\n\n**Brief Rationale:**\n1.  **Safety in Thyroid Cancer:** GLP-1 receptor agonists have no known association with medullary thyroid carcinoma. This is a critical distinction from another common class, the **SGLT2 inhibitors**, which carry a precaution in their prescribing information due to a non-human study finding an increased risk of MTC in rodents. While the clinical relevance in humans is uncertain, avoiding SGLT2 inhibitors is the standard precautionary approach in patients with existing MTC.\n2.  **Efficacy and Benefits:** GLP-1 agonists are highly effective at lowering blood glucose and promoting weight loss, which is often beneficial in type 2 diabetes. They also have a low risk of hypoglycemia when used without insulin or sulfonylureas.\n3.  **Cardiovascular Consideration:** Many agents in this class have proven cardiovascular benefits, which is important as patients with diabetes have elevated cardiovascular risk.\n\n**Important Note:** While GLP-1 agonists are preferred here, they are contraindicated in patients with a personal or family history of **multiple endocrine neoplasia syndrome type 2 (MEN 2)**, which is a common cause of hereditary MTC. The patient's specific family history and genetic status for MEN 2 must be confirmed before finalizing this choice. If MEN 2 is present or suspected, alternative agents like **DPP-4 inhibitors** (e.g., sitagliptin) or **insulin** would be more appropriate."
+      },
+      {
+        "id": "open_19",
+        "condition": "Carcinoma, Neuroendocrine",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 3,
+        "judge": 3,
+        "answer": "In this case, **exenatide** (a GLP-1 receptor agonist) would be a reasonable glucose-lowering medication to consider, with the understanding that the final choice must be made by the treating oncologist and endocrinologist based on the full clinical picture.\n\n**Brief Rationale:**\n\n1.  **Avoidance of Hypoglycemia:** GLP-1 RAs like exenatide are glucose-dependent, meaning they primarily stimulate insulin secretion and suppress glucagon only when blood glucose is elevated. This significantly lowers the risk of hypoglycemia, which is a critical safety concern in patients with a neuroendocrine carcinoma who may have unpredictable oral intake or experience cachexia.\n\n2.  **Potential Weight Neutrality or Mild Weight Loss:** Many patients with advanced malignancies struggle with weight loss (cachexia). While some GLP-1 RAs promote weight loss, exenatide (especially the immediate-release formulation) is generally associated with more modest effects on weight compared to others in its class, which could be preferable here. However, if weight loss is a significant concern, this point requires careful discussion.\n\n3.  **Theoretical Considerations with Neuroendocrine Tumors:** This is the most nuanced aspect. Neuroendocrine tumors (NETs) can sometimes secrete hormones. There is **no evidence** that GLP-1 RAs promote the growth of human NETs. However, as a precautionary principle, some clinicians prefer to avoid drugs in the incretin class (GLP-1 RAs and DPP-4 inhibitors) in patients with active or history of NETs, as GLP-1 receptors are expressed on some pancreatic and intestinal endocrine cells. **This is why an alternative like insulin is often the default safest choice.**\n\n**Important Caveats & The Strong Alternative:**\n\n*   **The Safest First-Line Agent is Often Insulin:** For a patient with an active neuroendocrine carcinoma and type 2 diabetes, **basal insulin** (e.g., insulin"
+      },
+      {
+        "id": "open_20",
+        "condition": "Gastroparesis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 4,
+        "judge": 2,
+        "answer": "**Recommended medication: GLP-1 receptor agonist (e.g., semaglutide or liraglutide)**  \n\n**Brief rationale:**  \n- **Improves gastroparesis:** GLP-1 agonists slow gastric emptying, which paradoxically can help in gastroparesis by regulating erratic motility and reducing symptoms like nausea and bloating in some patients.  \n- **Glucose control:** They enhance glucose-dependent insulin secretion, suppress glucagon, and promote weight loss, which is beneficial in type 2 diabetes.  \n- **Avoids risks:** Unlike some other agents (e.g., metformin, which may worsen GI symptoms, or DPP-4 inhibitors, which are neutral but less effective), GLP-1 agonists address both glucose levels and gastroparesis symptoms.  \n\n**Note:** Start with a low dose and titrate slowly to minimize initial GI side effects, and monitor for symptom response."
+      },
+      {
+        "id": "open_21",
+        "condition": "Lactation",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "In this clinical scenario, the patient has two key considerations: **Type 2 Diabetes Mellitus (T2DM)** and **Lactation**.\n\nThe recommended glucose-lowering medication to start is **Metformin**.\n\n**Brief Rationale:**\n\n1.  **First-Line for T2DM:** Metformin is universally recommended as the initial pharmacologic therapy for T2DM due to its efficacy, safety profile, low risk of hypoglycemia, and potential cardiovascular benefits.\n2.  **Safety During Lactation:** This is the critical factor. According to the American Academy of Pediatrics (AAP) and other expert sources, metformin is considered **compatible with breastfeeding**. Only minimal amounts are excreted into breast milk, and infant exposure is very low (estimated at <0.5% of the mother's weight-adjusted dose). No adverse effects in nursing infants have been reported in clinical studies.\n3.  **Alternatives are Less Suitable:**\n    *   **Sulfonylureas (e.g., glipizide):** While some (like glipizide) may be used with caution, they carry a higher risk of maternal hypoglycemia, which can indirectly affect lactation and infant care.\n    *   **Insulin:** Although insulin is the gold standard for diabetes in pregnancy and is safe during lactation (as it does not pass into breast milk), it is typically not the *first choice to start* for a patient with new or uncomplicated T2DM unless hyperglycemia is severe. Metformin is the preferred oral agent.\n    *   **Other newer agents (e.g., SGLT2 inhibitors, GLP-1 RAs):** Limited or no data are available on their use during lactation, so they are generally not recommended as first-line in this setting.\n\n**Important Note:** The patient should be monitored, and the dose of metformin should be titrated according to standard guidelines while ensuring adequate glycemic control. Always counsel the patient that while metformin"
+      },
+      {
+        "id": "open_22",
+        "condition": "Intestinal Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": false,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "In this scenario, the most appropriate glucose-lowering medication to start is **insulin (basal insulin)**.\n\n**Brief Rationale:**\n\n1. **Intestinal Obstruction:** This condition severely limits or prevents oral intake and gastrointestinal absorption. Therefore, **all oral medications (e.g., metformin, SGLT2 inhibitors, sulfonylureas) and non-insulin injectables like GLP-1 receptor agonists are contraindicated or ineffective**, as they require a functional GI tract for absorption or action.\n\n2. **Insulin is Independent of the GI Tract:** Insulin is administered subcutaneously, bypassing the digestive system entirely. Its absorption and action are not affected by intestinal obstruction.\n\n3. **Safety and Control:** Starting with a once-daily basal insulin (e.g., insulin glargine, detemir, or degludec) allows for safe and titratable control of blood glucose during an acute medical illness. It avoids the risk of hypoglycemia associated with prandial insulin when the patient's oral intake is unpredictable or nil.\n\n4. **Acute Illness Management:** During acute stress (like an obstruction), insulin requirements often increase due to counter-regulatory hormones. Insulin therapy is the standard for managing hyperglycemia in hospitalized or acutely ill patients, as it can be precisely adjusted.\n\n**In summary, insulin is the only suitable choice because it works regardless of GI function, provides predictable control, and is the cornerstone of glycemic management during acute illness or when oral medications cannot be used.**"
+      }
+    ],
+    "vector": [
+      {
+        "id": "open_0",
+        "condition": "Diabetic Ketoacidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 5,
+        "answer": "Based on the evidence provided, I cannot recommend starting any glucose-lowering medication for this patient at this time.\n\n**Explanation:**\nThe patient is presenting with **Diabetic Ketoacidosis (DKA)**, which is a life-threatening acute complication. According to the evidence ([V2]), DKA is an acute complication of diabetes. The immediate and absolute priority for this patient is emergency medical treatment in a hospital setting.\n\nThe first-line treatment for DKA involves:\n1.  **Intravenous insulin infusion** to correct hyperglycemia and halt ketogenesis.\n2.  **Intravenous fluids** to correct dehydration.\n3.  **Electrolyte replacement** (especially potassium).\n\nStarting a new oral or injectable glucose-lowering medication is not appropriate during an acute DKA episode. The management requires rapid-acting insulin delivered intravenously in a monitored setting. Once the DKA is fully resolved and the patient is stable, a long-term medication regimen (which may include SGLT2 inhibitors, as noted in [V5] for renal benefits) can be considered and initiated.\n\n**Therefore, the immediate recommendation is not for a specific medication, but for urgent hospitalization to manage the DKA with intravenous insulin and supportive care.**"
+      },
+      {
+        "id": "open_1",
+        "condition": "Diabetes Mellitus, Type 1",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the patient appears to have both Type 1 and Type 2 diabetes, which is a complex and less common presentation. In this scenario, the primary physiological dysfunction is an absolute insulin deficiency from the autoimmune Type 1 diabetes.\n\nTherefore, the essential and non-negotiable glucose-lowering medication to start is **insulin**.\n\n**Rationale:** Type 1 diabetes is characterized by the autoimmune destruction of insulin-producing beta cells, leading to an absolute insulin deficiency. No other class of medication can substitute for this missing hormone. While the patient may have concurrent insulin resistance (Type 2 component), the foundational treatment must address the lack of insulin. Initiating insulin therapy is critical to prevent acute, life-threatening complications like diabetic ketoacidosis, which is directly referenced in the evidence (V2). Oral medications or other injectables used for Type 2 diabetes are not appropriate as sole initial therapy when a diagnosis of Type 1 diabetes is confirmed."
+      },
+      {
+        "id": "open_2",
+        "condition": "Digestive System Abnormalities",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 2,
+        "answer": "Based on the evidence provided, which highlights the presence of digestive system abnormalities (like gastroparesis) as a complication of diabetes, the recommended initial glucose-lowering medication is **a GLP-1 receptor agonist (e.g., liraglutide, semaglutide)**.\n\n**Brief Rationale:**  \nGLP-1 receptor agonists are particularly suitable because they not only effectively lower blood glucose with a low risk of hypoglycemia but also slow gastric emptying and promote satiety. This can help manage symptoms commonly associated with diabetic gastroparesis and other digestive abnormalities, such as early satiety, bloating, and postprandial fullness. Additionally, they support weight loss and have proven cardiovascular benefits, addressing both metabolic control and common comorbidities in type 2 diabetes."
+      },
+      {
+        "id": "open_3",
+        "condition": "Multiple Endocrine Neoplasia Type 2a",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes mellitus (T2DM) who also has Multiple Endocrine Neoplasia Type 2a (MEN2a), the recommended initial glucose-lowering medication is **metformin**.\n\n**Brief Rationale:**\nMEN2a is characterized by medullary thyroid carcinoma, pheochromocytoma, and hyperparathyroidism. The critical consideration is the potential presence of a **pheochromocytoma**, which secretes catecholamines and can cause hypertension, hyperglycemia, and increased cardiovascular risk. Many glucose-lowering medications, particularly SGLT2 inhibitors and GLP-1 receptor agonists, carry warnings or require caution in patients with multiple endocrine neoplasias or a history of medullary thyroid carcinoma. Metformin is a well-established, first-line agent for T2DM with a neutral safety profile in this context. It does not exacerbate risks associated with pheochromocytoma (like some medications that affect heart rate or blood pressure) and has no known association with medullary thyroid carcinoma. It effectively lowers hepatic glucose production and improves insulin sensitivity, addressing core defects in T2DM.\n\n**Important Note:** This recommendation assumes the pheochromocytoma has been appropriately identified and treated (typically surgical resection prior to major interventions). Any diabetes management plan for this patient must be coordinated with their endocrinologist, given the complexity of MEN2a."
+      },
+      {
+        "id": "open_4",
+        "condition": "Thyroid Neoplasms",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes mellitus and thyroid neoplasms, a recommended initial glucose-lowering medication is **metformin**.\n\n**Brief Rationale:**\nThe evidence highlights that diabetes involves complex physiological dysfunctions and is associated with various complications and comorbidities, including thyroid disorders [V3, V4]. Metformin is a first-line agent for type 2 diabetes due to its efficacy, safety profile, and low risk of hypoglycemia. Importantly, it has a neutral or potentially beneficial effect on weight and does not have direct stimulatory effects on thyroid tissue, which is a consideration given the patient's thyroid neoplasms. Its mechanism (reducing hepatic glucose production and improving insulin sensitivity) addresses core pathophysiological defects without interfering with thyroid hormone pathways or promoting tumor growth, making it a suitable and cautious choice in this clinical context."
+      },
+      {
+        "id": "open_5",
+        "condition": "Kidney Failure, Chronic",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 4,
+        "answer": "For this patient with type 2 diabetes and chronic kidney failure, a recommended initial glucose-lowering medication is **a long-acting basal insulin, such as insulin glargine or insulin detemir**.\n\n**Brief Rationale:**\nThe evidence highlights that diabetes is the leading cause of chronic kidney disease and end-stage kidney disease, and maintaining optimal glycemic control is critical. However, many oral and injectable non-insulin medications are contraindicated or require significant dose adjustments in advanced kidney failure due to risks of hypoglycemia or drug accumulation. Insulin is safe at all stages of kidney disease because it is metabolized peripherally and not renally excreted. Starting with a long-acting basal insulin provides a stable foundation for glycemic control, allowing for careful, individualized titration to target glucose levels while minimizing hypoglycemia risk, which is elevated in kidney failure. This approach aligns with the need for individualized care in this complex patient population."
+      },
+      {
+        "id": "open_6",
+        "condition": "Liver Diseases",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 4,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes and concurrent liver disease, I recommend starting **a GLP-1 receptor agonist (e.g., liraglutide, semaglutide)**.\n\n**Brief Rationale:**\nWhile the provided evidence snippets do not directly address liver disease, they emphasize managing diabetes to prevent complications (V6) and note the increasing prevalence of type 2 diabetes (V4, V5). In clinical practice, the presence of liver disease is a critical consideration for medication selection. GLP-1 receptor agonists are a preferred choice in this context because:\n1.  **Hepatoprotective Potential:** They are not hepatotoxic and some evidence suggests they may improve liver enzyme levels and reduce liver fat, which is beneficial given the high prevalence of non-alcoholic fatty liver disease (NAFLD) in patients with type 2 diabetes.\n2.  **Cardiovascular and Renal Benefits:** As per V6, managing macrovascular and microvascular complications is key. GLP-1 agonists have proven cardiovascular benefits and can slow the progression of diabetic kidney disease, addressing two major complication pathways.\n3.  **Safety Profile:** Their mechanism of action is not dependent on liver metabolism, making them safer in patients with impaired liver function compared to some other oral agents (like certain sulfonylureas or metformin, which requires caution in advanced liver disease due to lactate risk).\n\nTherefore, a GLP-1 receptor agonist effectively lowers glucose while offering protective benefits for both the liver and other organ systems at high risk from diabetes."
+      },
+      {
+        "id": "open_7",
+        "condition": "Pregnancy",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "For this pregnant patient with type 2 diabetes, the recommended glucose-lowering medication to start is **insulin**.\n\n**Rationale:** Insulin is the first-line pharmacological therapy for diabetes in pregnancy because it does not cross the placenta and has a long-established safety profile for both the mother and the developing fetus. Achieving strict glycemic targets is critical to reducing the risks of maternal and fetal complications, such as congenital malformations, preeclampsia, macrosomia, and neonatal hypoglycemia. While metformin and glyburide are sometimes used, insulin remains the standard of care due to its efficacy and safety during pregnancy."
+      },
+      {
+        "id": "open_8",
+        "condition": "Hypoglycemia",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 3,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with a history of hypoglycemia. The primary goal in this situation is to lower blood glucose effectively while minimizing the risk of further hypoglycemic episodes.\n\n**Recommended Medication: Metformin**\n\n**Brief Rationale:**\nMetformin is a first-line medication for type 2 diabetes. It lowers blood glucose primarily by decreasing liver glucose production and improving insulin sensitivity. Crucially, **it does not stimulate insulin secretion** and therefore carries a very low risk of causing hypoglycemia when used as monotherapy. This makes it a safe and appropriate choice for a patient already experiencing hypoglycemia, as it will help manage hyperglycemia without exacerbating the low blood sugar events."
+      },
+      {
+        "id": "open_9",
+        "condition": "Malabsorption Syndromes",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 3,
+        "judge": 4,
+        "answer": "Based on the evidence provided and the patient's specific condition of type 2 diabetes with malabsorption syndromes, I recommend starting **liraglutide** (a GLP-1 receptor agonist).\n\n**Brief Rationale:**\nThe key consideration is the malabsorption syndrome, which can impair the absorption of oral medications. Liraglutide is administered via subcutaneous injection, bypassing the gastrointestinal tract entirely. This ensures reliable and predictable drug delivery and efficacy, unaffected by the patient's malabsorptive state. Additionally, GLP-1 receptor agonists like liraglutide are effective at lowering HbA1c (aligning with the glycemic control goal mentioned in V4) and are not associated with hypoglycemia when used alone."
+      },
+      {
+        "id": "open_10",
+        "condition": "Multiple Endocrine Neoplasia Type 2b",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 4,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes mellitus (T2DM) who also has Multiple Endocrine Neoplasia Type 2b (MEN2b), the recommended glucose-lowering medication to start is **metformin**.\n\n**Brief Rationale:**\nMEN2b is characterized by medullary thyroid carcinoma and pheochromocytoma, among other features. The primary concern in this patient is avoiding medications that could exacerbate or interact with these conditions, particularly pheochromocytoma, which involves catecholamine-secreting tumors. Many newer diabetes medications, especially SGLT2 inhibitors and GLP-1 receptor agonists, have mechanisms or side effects that may pose risks in the context of pheochromocytoma (e.g., affecting blood pressure, heart rate, or fluid balance). Metformin is a well-established, first-line agent for T2DM with a neutral profile regarding these specific concerns. It does not stimulate insulin secretion (avoiding potential interaction with catecholamine effects) and has a low risk of hypoglycemia. While the evidence snippets do not directly address MEN2b, they emphasize T2DM management and complications, supporting the use of foundational, low-risk therapies like metformin in complex cases. However, **pheochromocytoma must be ruled out or adequately treated before starting any diabetes therapy**, and management should be closely coordinated with an endocrinologist."
+      },
+      {
+        "id": "open_11",
+        "condition": "Liver Cirrhosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 4,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes and liver cirrhosis, a recommended initial glucose-lowering medication is **insulin**.\n\n**Brief Rationale:**\nThe evidence highlights that liver disease is common in diabetes (V2). In the context of cirrhosis, many oral medications are metabolized by the liver and can pose a risk of toxicity or unpredictable effects due to impaired liver function. Insulin, however, is not metabolized by the liver; it is cleared peripherally. It provides predictable and potent glucose control without adding metabolic stress to the compromised liver, making it a safer and more reliable choice in this specific patient population."
+      },
+      {
+        "id": "open_12",
+        "condition": "Colitis, Ulcerative",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 4,
+        "answer": "Based on the evidence provided and the patient's specific conditions, I recommend starting **metformin** as the initial glucose-lowering medication.\n\n**Brief Rationale:**\n- Metformin is a first-line therapy for type 2 diabetes due to its efficacy, safety profile, and low risk of hypoglycemia.\n- Importantly, it is not associated with gastrointestinal conditions like ulcerative colitis and does not increase the risk of gastroparesis (referenced in V2 as a complication of diabetes). Its common GI side effects (e.g., transient nausea, diarrhea) are typically manageable and distinct from the inflammatory pathology of ulcerative colitis.\n- Other medication classes (like SGLT2 inhibitors or GLP-1 receptor agonists) may have specific considerations or monitoring requirements that make metformin a more straightforward initial choice in this context, assuming the patient has no contraindications (e.g., severe renal impairment).\n\n**Note:** It is essential to ensure the patient's ulcerative colitis is well-managed and stable. Any persistent gastrointestinal symptoms should be evaluated to differentiate between metformin side effects and colitis activity. The dose should be started low and gradually increased to improve tolerability."
+      },
+      {
+        "id": "open_13",
+        "condition": "Intestinal Pseudo-Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 3,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes mellitus and **Intestinal Pseudo-Obstruction**, the recommended initial glucose-lowering medication is a **GLP-1 receptor agonist (e.g., liraglutide, semaglutide)**.\n\n**Brief Rationale:**\nIntestinal pseudo-obstruction involves impaired gut motility, which can be exacerbated by medications that slow gastrointestinal transit. GLP-1 receptor agonists are preferred here because they primarily enhance glucose-dependent insulin secretion and suppress glucagon, with a significant added benefit of promoting weight loss—a key factor in managing type 2 diabetes. Although they can initially cause gastrointestinal side effects (like nausea), they are not associated with causing or worsening mechanical obstruction and may support overall metabolic control without the risks linked to other agents (e.g., SGLT2 inhibitors in volume-depleted states or metformin in gastrointestinal dysmotility). This choice aligns with the need for individualized care (V4) while addressing hyperglycemia (V1) and considering the patient's specific gastrointestinal condition."
+      },
+      {
+        "id": "open_14",
+        "condition": "Renal Insufficiency",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 3,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes and renal insufficiency, I recommend starting **a sodium-glucose cotransporter-2 (SGLT2) inhibitor** (specifically one with proven renal benefits, such as empagliflozin or canagliflozin).\n\n**Brief Rationale:**\nThe evidence highlights that diabetic retinopathy and nephropathy share pathophysiological mechanisms and their severity is correlated [V3]. Managing diabetes to protect renal function is therefore critical. SGLT2 inhibitors are a preferred class in this context because they provide effective glucose lowering with additional renal and cardiovascular protective benefits. They have been shown in major trials to slow the progression of chronic kidney disease and reduce the risk of hospitalization for heart failure, independent of their glucose-lowering effect. This makes them particularly suitable for patients with type 2 diabetes and established renal insufficiency, as they address both the metabolic and the significant renal risk parameters mentioned in the evidence [V3]."
+      },
+      {
+        "id": "open_15",
+        "condition": "Acidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes mellitus and acidosis, the recommended glucose-lowering medication to start is **insulin**.\n\n**Rationale:** The evidence highlights that a key acute complication of diabetes is diabetic ketoacidosis (DKA), a serious form of acidosis ([V2]). While DKA is more common in type 1 diabetes, it can occur in type 2 diabetes under severe stress. Acidosis in a diabetic patient is a medical emergency that requires immediate treatment with insulin to correct the underlying metabolic derangement. Insulin directly inhibits ketone production, lowers blood glucose, and reverses acidosis. Oral or other non-insulin medications are not appropriate as initial therapy in this acute, unstable condition."
+      },
+      {
+        "id": "open_16",
+        "condition": "Heart Failure",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 4,
+        "answer": "Based on the evidence provided, for a patient with type 2 diabetes and heart failure, the recommended glucose-lowering medication to start is **semaglutide**.\n\n**Brief Rationale:**\nThe evidence from [V4] specifically establishes that semaglutide has demonstrated cardiovascular safety and benefits in patients with type 2 diabetes. Given that the patient has comorbid heart failure—a major macrovascular complication highlighted in [V5] and [V6]—initiating a medication with proven cardiovascular outcomes is a priority. Semaglutide addresses both glycemic control and reduces the risk of adverse cardiovascular events, making it a suitable choice for this patient profile."
+      },
+      {
+        "id": "open_17",
+        "condition": "Kidney Diseases",
+        "violation": true,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "For this patient with type 2 diabetes and kidney disease, I recommend starting **empagliflozin (an SGLT2 inhibitor)**.\n\n**Brief Rationale:**  \nSGLT2 inhibitors, like empagliflozin, have strong evidence for kidney protection in patients with type 2 diabetes and established kidney disease. They reduce the risk of worsening kidney function, progression to end-stage kidney disease, and hospitalization for heart failure, independent of their glucose-lowering effect. They are recommended by guidelines as a first-line therapy for patients with type 2 diabetes and chronic kidney disease, even with moderately reduced kidney function (down to an eGFR of 20-25 mL/min/1.73 m² in some cases), provided there is no contraindication. Their glucose-lowering efficacy is modest and does not increase the risk of hypoglycemia when used alone."
+      },
+      {
+        "id": "open_18",
+        "condition": "Carcinoma, Medullary",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 2,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes mellitus and also has medullary carcinoma. Given the presence of this specific cancer, the most appropriate initial glucose-lowering medication is a **GLP-1 receptor agonist (e.g., liraglutide, semaglutide, dulaglutide)**.\n\n**Brief Rationale:**\nWhile the provided evidence focuses on the complications of diabetes, the key clinical consideration is the patient's concurrent medullary carcinoma. Medications in the DPP-4 inhibitor class (e.g., sitagliptin, saxagliptin) are contraindicated in patients with a history of medullary thyroid carcinoma due to tumor risk observed in animal studies. GLP-1 receptor agonists have a similar precaution, but it is not an absolute contraindication; they require caution and discussion of the potential risk. Among other common agents, metformin has a neutral cancer risk profile and may even have protective effects, but its use can be limited by gastrointestinal side effects and renal function. Given the need for effective glucose control while acknowledging the cancer history, a GLP-1 agonist is a preferred choice as it provides robust A1c reduction, promotes weight loss (often beneficial), and has a low risk of hypoglycemia. The decision should involve a discussion with the patient's oncologist to weigh the individual's cancer-specific risks and benefits.\n\n**Note:** This recommendation assumes standard considerations such as the patient's renal function, cardiovascular status, and A1c level have been evaluated. The final choice should always be made by the treating physician in the context of the complete clinical picture."
+      },
+      {
+        "id": "open_19",
+        "condition": "Carcinoma, Neuroendocrine",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 3,
+        "answer": "Based on the evidence provided, the recommended glucose-lowering medication to start for this patient is **metformin**.\n\n**Brief Rationale:**\nThe evidence indicates that metformin is a foundational therapy for type 2 diabetes (V5). More importantly, the patient has a neuroendocrine carcinoma. Metformin has emerging indications and beneficial effects beyond glucose control, including potential anti-cancer properties (V5). While the specific evidence for neuroendocrine tumors is not detailed in the provided excerpts, metformin's broader profile makes it a more suitable first-line choice compared to medications that might promote insulin secretion (which could theoretically stimulate growth in some neuroendocrine tumors) or those with less established safety profiles in cancer. Its use aligns with general treatment guidelines for type 2 diabetes (V3) while offering potential ancillary benefits relevant to the patient's comorbidity.\n\n**Note:** This recommendation is based on the synthesized evidence snippets. A full clinical decision would require a complete patient history, assessment of renal/hepatic function, and evaluation of the specific type and stage of the neuroendocrine carcinoma."
+      },
+      {
+        "id": "open_20",
+        "condition": "Gastroparesis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 4,
+        "judge": 2,
+        "answer": "Based on the evidence, for a patient with type 2 diabetes and gastroparesis, I recommend starting a **GLP-1 receptor agonist (e.g., liraglutide, semaglutide)**.\n\n**Brief Rationale:**\nThe evidence notes that gastroparesis is a complication of diabetes associated with delayed gastric emptying and upper gastrointestinal symptoms like nausea and vomiting ([V1], [V3], [V6]). GLP-1 receptor agonists are preferred in this context because their primary mechanism of action—slowing gastric emptying—directly addresses a key pathophysiological feature of gastroparesis. While this effect could theoretically worsen symptoms in severe cases, in clinical practice, these medications are often used with caution and can improve overall glycemic control without exacerbating gastroparesis when titrated appropriately. They also promote weight loss and have cardiovascular benefits, which are important in managing type 2 diabetes."
+      },
+      {
+        "id": "open_21",
+        "condition": "Lactation",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the recommended glucose-lowering medication to start for a patient with type 2 diabetes mellitus who is lactating is **insulin**.\n\n**Brief Rationale:**\nThe evidence highlights that managing diabetes during pregnancy and the postpartum period is critical for maternal and offspring health. Insulin is the standard medication for managing diabetes in pregnancy (V4, V5) and is considered safe during lactation. Unlike many oral medications, insulin does not pass into breast milk in significant amounts, making it the preferred choice for glycemic control in breastfeeding patients to avoid potential exposure of the infant to other drugs."
+      },
+      {
+        "id": "open_22",
+        "condition": "Intestinal Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "Based on the evidence provided and the patient's specific condition of having an intestinal obstruction, I recommend starting the patient on **insulin therapy**.\n\n**Brief Rationale:**  \nIntestinal obstruction is a condition where oral intake and gastrointestinal motility are compromised. Most oral glucose-lowering medications (e.g., metformin, SGLT2 inhibitors, sulfonylureas) rely on gastrointestinal absorption or function, which may be unsafe or ineffective in this setting. Insulin, administered via injection, bypasses the gut entirely, allowing for precise and reliable blood glucose control regardless of gastrointestinal status. This is critical for managing hyperglycemia acutely while avoiding the risks associated with oral agents during an obstruction."
+      }
+    ],
+    "graph": [
+      {
+        "id": "open_0",
+        "condition": "Diabetic Ketoacidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple severe complications (including active foot ulcers, retinal ischemia, and neovascular glaucoma) and a history of significant hypoglycemia and hypoglycemia unawareness. They are now presenting with **Diabetic Ketoacidosis (DKA)**.\n\n**Recommended Medication: Insulin (intravenous, then transitioning to subcutaneous basal-bolus regimen)**\n\n**Brief Rationale:**\n1.  **DKA is an absolute indication for insulin therapy.** Insulin is required to reverse ketosis, correct acidosis, and lower blood glucose. Oral agents or non-insulin injectables are not appropriate for acute management.\n2.  **The patient's complex profile** includes active, severe complications (ulcers, retinal ischemia) where tight glycemic control is urgently needed but must be balanced against their significant risk of hypoglycemia. Insulin allows for the most precise, titratable control in this critical setting.\n3.  **History of hypoglycemia unawareness** makes the use of sulfonylureas or other medications with high hypoglycemia risk particularly dangerous. An insulin regimen, carefully dosed and monitored, provides the flexibility to avoid hypoglycemia while achieving the necessary glycemic targets to promote wound healing and manage other complications.\n\n**In summary, insulin is the mandatory, first-line therapy for DKA and provides the safest and most effective platform for managing this patient's high-risk diabetes profile.**"
+      },
+      {
+        "id": "open_1",
+        "condition": "Diabetes Mellitus, Type 1",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 15,
+        "judge": 1,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple severe complications, including proliferative retinopathy/retinal ischemia, neovascular glaucoma, and multiple foot ulcers with neuropathy. Critically, they also have a history of **hypoglycemia unawareness (G11)** and documented **hypoglycemia (G12)**.\n\nThe most appropriate medication to start is a **SGLT2 inhibitor (e.g., empagliflozin, canagliflozin, or dapagliflozin)**.\n\n**Brief Rationale:**\n\n1.  **Low Hypoglycemia Risk:** SGLT2 inhibitors work independently of insulin, promoting glucose excretion in the urine. They carry a very low risk of hypoglycemia when used alone, which is the **paramount concern** for this patient given their hypoglycemia unawareness.\n\n2.  **Cardiovascular and Renal Protection:** While not explicitly listed, patients with advanced microvascular complications (retinal, foot ulcers) are at extremely high risk for macrovascular (heart attack, stroke) and renal events. SGLT2 inhibitors have proven cardiovascular and renal protective benefits, which are crucial for this patient's long-term outlook.\n\n3.  **Potential Benefits for Comorbidities:** They promote mild weight loss and lower blood pressure, which are beneficial for overall metabolic health. The evidence of dyslipidemia (G9) further supports a need for comprehensive risk factor management.\n\n**Important Considerations & Why Others Are Less Suitable:**\n*   **GLP-1 RAs (e.g., semaglutide, dulaglutide)** would be a very strong alternative, especially given the need for weight loss and cardiovascular benefit. However, their gastrointestinal side effects (nausea) might be less tolerable, and the priority here is to **avoid hypoglycemia at all costs** while addressing high cardiovascular risk. An SGLT2 inhibitor is slightly more direct for this profile.\n*   **Insulin or Sulf"
+      },
+      {
+        "id": "open_2",
+        "condition": "Digestive System Abnormalities",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 16,
+        "judge": 4,
+        "answer": "Based on the evidence, I recommend starting the patient on a **sodium-glucose cotransporter-2 (SGLT2) inhibitor** (e.g., empagliflozin, dapagliflozin, or canagliflozin).\n\n**Brief Rationale:**\n\n1.  **Avoids Digestive System Contraindications:** The evidence states that both acarbose and miglitol (alpha-glucosidase inhibitors) are contraindicated in patients with Digestive System Abnormalities. SGLT2 inhibitors are not contraindicated for digestive issues and are a suitable alternative.\n\n2.  **Addresses Multiple Complications:** The patient has several diabetes-related complications, including **foot ulcers, peripheral neuropathy, retinal ischemia, and neovascular glaucoma**. SGLT2 inhibitors have robust evidence for cardiovascular and renal protection. More importantly for this patient, some agents in this class (specifically empagliflozin) have demonstrated benefits in reducing the risk of hospitalization for heart failure and slowing the progression of kidney disease, which are critical considerations given the presence of microvascular (retinal, neuropathic) and macrovascular risk factors (dyslipidemia).\n\n3.  **Potential Benefits for Comorbidities:** The patient has dyslipidemia with high triglycerides and low HDL. SGLT2 inhibitors can promote mild weight loss and have a favorable effect on reducing blood pressure, which are beneficial for the overall metabolic profile.\n\n**Important Consideration:** Before prescribing, ensure the patient's foot ulcers are not actively infected, as SGLT2 inhibitors may slightly increase the risk of genital mycotic infections. Proper foot care and monitoring are essential. An alternative class to consider would be a **GLP-1 receptor agonist** (e.g., semaglutide, liraglutide), which also provides cardiovascular benefits and promotes weight loss, but its gastrointestinal side effects might be less ideal if the digestive system abnormality is significant.\n\n**Final Recommendation:** **Start an SGL"
+      },
+      {
+        "id": "open_3",
+        "condition": "Multiple Endocrine Neoplasia Type 2a",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 10,
+        "judge": 1,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with significant microvascular complications (retinal ischemia, neuropathy, multiple ulcers/feet at risk) and a history of problematic hypoglycemia. Given the additional diagnosis of **Multiple Endocrine Neoplasia Type 2a (MEN2a)**, which carries a high risk for medullary thyroid carcinoma and pheochromocytoma, the choice of glucose-lowering medication must prioritize safety and avoid exacerbating these risks.\n\n**Recommended Medication: A GLP-1 Receptor Agonist (e.g., semaglutide, dulaglutide)**\n\n**Brief Rationale:**\n\n1.  **Cardiovascular and Renal Risk Reduction:** GLP-1 RAs have proven cardiovascular benefits, including reducing the risk of major adverse cardiovascular events. This is crucial for a patient with diabetes who already shows evidence of vascular complications (retinal ischemia, dyslipidemia).\n2.  **Low Hypoglycemia Risk:** When used without insulin or sulfonylureas, GLP-1 RAs carry a very low risk of hypoglycemia. This is essential for a patient with documented **hypoglycemia unawareness and hypoglycemia**, as it minimizes the danger of severe hypoglycemic events.\n3.  **Weight Loss and Metabolic Benefits:** These agents promote weight loss and improve dyslipidemia (addressing G9), which are important for overall metabolic control.\n4.  **Safety in MEN2a:** This is the most critical factor. MEN2a is associated with a risk of medullary thyroid carcinoma (MTC). **GLP-1 RAs are contraindicated in patients with a personal or family history of MTC or MEN2.** Therefore, **a GLP-1 RA is NOT recommended for this specific patient.**\n\n**Therefore, the most appropriate and safe choice is: An SGLT2 Inhibitor (e.g., empagliflozin, canagliflozin).**\n\n**Final Recommendation: Start an SGL"
+      },
+      {
+        "id": "open_4",
+        "condition": "Thyroid Neoplasms",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 14,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple, serious complications indicating advanced disease and significant insulin deficiency. These include recurrent foot/lower limb ulcers, peripheral neuropathy, retinal ischemia, and neovascular glaucoma. The presence of **hypoglycemia unawareness (G11)** is a critical safety concern.\n\n**Recommended Medication: A long-acting basal insulin (e.g., insulin glargine U-100 or insulin degludec).**\n\n**Brief Rationale:**\n1.  **Potency and Efficacy:** Given the severity of complications, aggressive glycemic control is urgently needed to prevent further tissue damage and promote ulcer healing. Insulin is the most effective glucose-lowering agent and can achieve any desired A1c target.\n2.  **Safety Profile with Hypoglycemia Unawareness:** The patient has documented hypoglycemia unawareness (G11) and hypoglycemia (G12). Long-acting basal insulins like glargine and degludec have a flat, stable profile with a low risk of hypoglycemia, especially nocturnal hypoglycemia. Degludec has a particularly well-documented lower risk of hypoglycemia in trials.\n3.  **Appropriateness for Advanced Disease:** The complications (ulcers, retinopathy, neuropathy) suggest long-standing diabetes with significant beta-cell failure. At this stage, insulin is often necessary and is the standard of care.\n4.  **Neutrality with Comorbidities:** Insulin has no direct interaction with or adverse effect on thyroid neoplasms, making it a safe choice in this context. It does not affect the thyroid gland or hormone levels.\n\n**Important Note:** Starting insulin requires careful patient education on injection technique, glucose monitoring, and hypoglycemia management, especially critical given the patient's unawareness. The dose must be initiated low and titrated slowly based on fasting glucose readings. This recommendation assumes a standard clinical scenario; the final choice should be made by the treating physician after a full assessment."
+      },
+      {
+        "id": "open_5",
+        "condition": "Kidney Failure, Chronic",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 5,
+        "answer": "Based on the evidence, I cannot recommend starting canagliflozin or ertugliflozin, as they are both contraindicated in chronic kidney failure.\n\nGiven the patient's complex presentation with multiple diabetes-related complications (including chronic kidney failure, foot ulcers, and neovascular glaucoma), the most appropriate initial glucose-lowering medication to start would be **insulin**.\n\n**Rationale:**\n1.  **Safety in Kidney Failure:** Insulin is safe and effective at all stages of chronic kidney disease. Its clearance is not dependent on renal function (though dosing adjustments are often needed as kidney function declines).\n2.  **Clinical Urgency:** The presence of multiple, active foot ulcers and neovascular glaucoma indicates a need for prompt and potent glycemic control to support wound healing and reduce the risk of further complications.\n3.  **Flexibility:** Insulin therapy allows for precise titration to achieve glycemic targets while managing the variable needs that often accompany acute issues like infections or wounds.\n\n**Important Note:** Insulin should be initiated cautiously with close monitoring of blood glucose to avoid hypoglycemia, especially in the context of kidney failure where insulin clearance may be reduced. A basal insulin regimen is often a practical starting point. A comprehensive care plan involving wound care, ophthalmology, and nephrology is also essential."
+      },
+      {
+        "id": "open_6",
+        "condition": "Liver Diseases",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 5,
+        "answer": "Based on the evidence provided, I recommend starting **insulin** as the glucose-lowering medication for this patient.\n\n**Brief Rationale:**\nThe patient has type 2 diabetes with multiple complications (neuropathy, retinal ischemia, and extensive foot/lower limb ulcers) indicating advanced disease and likely a need for significant glycemic control. Crucially, the patient also has **Liver Diseases**.\n\n*   **Metformin, rosiglitazone, and pioglitazone are all contraindicated** in the setting of liver disease ([G1], [G2], [G3]). This eliminates the most common first- and second-line oral agents.\n*   Given the presence of serious, potentially limb-threatening ulcers ([G5], [G7], [G8], [G9], [G10]), achieving prompt and effective glycemic control is essential for wound healing.\n*   **Insulin** is not metabolized by the liver and is safe to use in liver disease. It is the most effective agent for lowering blood glucose and is the preferred choice in situations requiring potent glycemic control, especially when other medications are contraindicated or insufficient.\n\nTherefore, insulin is the most appropriate and safe initial agent to address both the urgent need for glycemic control (to promote ulcer healing) and the contraindication to other medications due to liver disease."
+      },
+      {
+        "id": "open_7",
+        "condition": "Pregnancy",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 10,
+        "judge": 5,
+        "answer": "Based on the evidence provided, I cannot recommend any of the listed glucose-lowering medications (**chlorpropamide, tolbutamide, tolazamide, acetohexamide, liraglutide, or donislecel**) for this patient, as they are all explicitly contraindicated during pregnancy.\n\n**Recommendation: Insulin**\n\n**Brief Rationale:**\nInsulin is the standard and preferred medication for managing type 2 diabetes during pregnancy. It is effective at controlling blood glucose and does not cross the placenta in significant amounts, making it safe for the developing fetus. The evidence highlights that several oral agents and non-insulin injectables are contraindicated, reinforcing that insulin is the appropriate choice. The patient's complications (glaucoma, foot ulcers, retinal ischemia) indicate a need for tight glycemic control, which insulin can effectively provide.\n\n**Important Note:** This recommendation is based on the provided evidence snippets. A full clinical assessment is required. The specific type and regimen of insulin (e.g., basal, prandial) should be determined by an endocrinologist or obstetrician specializing in diabetes care, with close monitoring throughout the pregnancy."
+      },
+      {
+        "id": "open_8",
+        "condition": "Hypoglycemia",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 11,
+        "judge": 5,
+        "answer": "Based on the evidence, I cannot recommend any of the listed glucose-lowering medications for this patient.\n\n**Explanation:**\nAll the specific medications provided in the evidence ([G1] to [G7])—including rapid-acting, short-acting, and long-acting insulins, as well as pramlintide—are explicitly **contraindicated** for a patient with hypoglycemia. Starting any of these would directly contradict the safety information, as they all lower blood glucose and would significantly increase the risk of worsening or triggering dangerous hypoglycemic episodes.\n\n**Clinical Note:**\nFor a patient with type 2 diabetes and active or recurrent hypoglycemia, the priority is to avoid medications that carry a high hypoglycemia risk. The appropriate approach would be to consider agents with a low or negligible risk of hypoglycemia, such as:\n*   **SGLT2 inhibitors** (e.g., empagliflozin, canagliflozin)\n*   **GLP-1 receptor agonists** (e.g., semaglutide, dulaglutide)\n*   **DPP-4 inhibitors** (e.g., sitagliptin, linagliptin)\n*   **Metformin** (if renal function is normal)\n*   **Thiazolidinediones** (e.g., pioglitazone)\n\nA specific recommendation would require additional information about the patient's renal function, cardiovascular status, HbA1c level, and the cause of their hypoglycemia. The current evidence list does not include any of these safer options."
+      },
+      {
+        "id": "open_9",
+        "condition": "Malabsorption Syndromes",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 11,
+        "judge": 3,
+        "answer": "Based on the evidence, I recommend starting **metformin** as the initial glucose-lowering medication for this patient.\n\n**Brief Rationale:**\nThe patient has type 2 diabetes with multiple complications (neuropathy, foot ulcers, retinal ischemia, neovascular glaucoma) and a significant contraindication: **Malabsorption Syndromes**. The evidence notes that both acarbose (G1) and miglitol (G2) are contraindicated in this condition. Metformin is a first-line agent for type 2 diabetes and does not have malabsorption syndromes as a standard contraindication. Its primary mechanism is reducing hepatic glucose production and improving insulin sensitivity, which is appropriate here. Furthermore, it may offer mild benefits for the patient's dyslipidemia (G11). However, the patient's renal function and history of tissue ischemia should be assessed prior to initiation to ensure safety and rule out contraindications like severe renal impairment."
+      },
+      {
+        "id": "open_10",
+        "condition": "Multiple Endocrine Neoplasia Type 2b",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 13,
+        "judge": 4,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with significant microvascular complications (retinal ischemia, neuropathy, multiple ulcers/feet at risk) and a history of problematic hypoglycemia (both hypoglycemia and hypoglycemia unawareness). Given the co-diagnosis of **Multiple Endocrine Neoplasia Type 2b (MEN2b)**, which is strongly associated with medullary thyroid carcinoma (MTC) and pheochromocytoma, the choice of glucose-lowering medication must avoid any potential risk of stimulating thyroid C-cell tumors.\n\nTherefore, the recommended medication is a **GLP-1 receptor agonist (e.g., semaglutide, liraglutide, dulaglutide)**.\n\n**Brief Rationale:**\n1.  **Safety in MEN2b:** GLP-1 receptor agonists have no known association with thyroid C-cell tumors in humans and are not contraindicated in MEN2b, unlike **SGLT2 inhibitors** (which carry a warning for Fournier's gangrene—a significant risk given the patient's existing foot ulcers) and **DPP-4 inhibitors** (where saxagliptin may increase heart failure risk, and the class offers only moderate efficacy).\n2.  **Cardiovascular and Renal Benefits:** This class reduces major adverse cardiovascular events and slows kidney disease progression, which is crucial for a patient showing advanced microvascular complications.\n3.  **Low Hypoglycemia Risk:** When used without insulin or sulfonylureas, GLP-1 agonists carry a very low risk of hypoglycemia, directly addressing the documented issues of hypoglycemia and hypoglycemia unawareness.\n4.  **Weight Loss and Dyslipidemia:** They promote weight loss and can improve lipid profiles, which is beneficial for the patient's dyslipidemia.\n\n**Important Note:** Before initiation, it is essential to rule out pheochromocytoma (screening with plasma metanephrines is standard in MEN2b) due to the potential"
+      },
+      {
+        "id": "open_11",
+        "condition": "Liver Cirrhosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 16,
+        "judge": 3,
+        "answer": "Based on the evidence provided, I recommend starting **empagliflozin** (an SGLT2 inhibitor) as the glucose-lowering medication for this patient.\n\n**Brief Rationale:**\n\n1.  **Safety in Liver Cirrhosis:** The evidence states that acarbose is contraindicated in liver cirrhosis [G1]. Many other oral medications (like metformin or sulfonylureas) also require caution or dose adjustment in hepatic impairment. SGLT2 inhibitors like empagliflozin are generally considered safe and do not require dose adjustment in patients with hepatic impairment, including cirrhosis, as they are not metabolized by the liver.\n\n2.  **Addressing Multiple Complications:** The patient has numerous diabetes-related complications, including skin/foot ulcers [G3, G5-G8], retinopathy/glaucoma [G2, G4, G11], neuropathy [G9], and dyslipidemia [G10]. SGLT2 inhibitors have robust evidence for cardiovascular and renal protection. More specifically for this patient, they have been shown to reduce the risk of hospitalization for heart failure and slow the progression of kidney disease, which is a critical consideration given the likely advanced stage of diabetes. Furthermore, their mechanism promotes mild weight loss and lowers blood pressure, which are beneficial ancillary effects.\n\n3.  **Avoiding Hypoglycemia:** The patient has \"hypoglycemia unawareness\" [G12], which is a serious condition. Empagliflozin has a very low intrinsic risk of causing hypoglycemia when used alone, as its action is independent of insulin secretion. This makes it a much safer choice compared to medications like sulfonylureas or insulin, which would significantly increase the risk of dangerous hypoglycemic events.\n\n**Important Note:** While empagliflozin is a strong candidate, the final choice must be made by the treating physician after a full clinical assessment. Specific considerations for this patient would include ensuring adequate kidney function (eGFR) for efficacy,"
+      },
+      {
+        "id": "open_12",
+        "condition": "Colitis, Ulcerative",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 15,
+        "judge": 5,
+        "answer": "Based on the evidence, I recommend starting **metformin** as the initial glucose-lowering medication for this patient.\n\n**Brief Rationale:**\n\n1.  **Avoids Contraindication:** The evidence explicitly states that acarbose [G1] and miglitol [G2] are contraindicated in Ulcerative Colitis. Alpha-glucosidase inhibitors like these commonly cause gastrointestinal side effects (flatulence, diarrhea), which could exacerbate the symptoms of active colitis and are best avoided.\n\n2.  **First-Line Standard of Care:** Metformin is the consensus first-line medication for type 2 diabetes mellitus in the absence of specific contraindications (e.g., severe renal impairment, metabolic acidosis). The provided evidence does not list any contraindication to metformin.\n\n3.  **Addresses Comorbidities:** The patient has evidence of significant diabetes-related complications, including dyslipidemia [G11], foot ulcers [G4, G6, G7, G8, G9], and retinopathy/glaucoma [G3, G5, G12]. Metformin is weight-neutral or can promote mild weight loss, which is beneficial. It also has a low risk of hypoglycemia when used alone, which is important for a patient with complications that may affect meal patterns.\n\n**Important Considerations:**\n*   The patient's renal function must be assessed before and during metformin therapy.\n*   Metformin can cause GI upset (typically transient). It should be started at a low dose and titrated slowly, with monitoring for any worsening of colitis symptoms. If GI intolerance persists, an extended-release formulation may be better tolerated.\n*   Given the presence of multiple ulcers and neuropathy, SGLT2 inhibitors (which have proven cardiovascular and renal benefits) would be a strong consideration for *add-on* therapy if metformin alone is insufficient, provided the patient has adequate renal function and no history of genital mycotic infections or diabetic ketoacidosis risk factors.\n\n**In summary,"
+      },
+      {
+        "id": "open_13",
+        "condition": "Intestinal Pseudo-Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 10,
+        "judge": 5,
+        "answer": "Based on the evidence, I recommend starting **empagliflozin (an SGLT2 inhibitor)** for this patient.\n\n**Brief rationale:**\n1. **Avoids contraindication:** Miglitol (an alpha-glucosidase inhibitor) is contraindicated due to intestinal pseudo-obstruction [G1], and other medications that significantly slow GI motility (like GLP-1 agonists) should also be avoided. SGLT2 inhibitors do not affect gut motility.\n2. **Addresses complications:** The patient has multiple diabetes-related complications including skin/foot ulcers [G3, G5-G8], retinopathy/glaucoma [G2, G4, G11], neuropathy [G9], and dyslipidemia [G10]. SGLT2 inhibitors have proven cardiovascular and renal benefits, and some evidence suggests they may reduce risks of peripheral vascular complications.\n3. **Low hypoglycemia risk:** Given the patient's hypoglycemia unawareness [G12], empagliflozin has a low risk of hypoglycemia when used without insulin or sulfonylureas.\n4. **Additional benefits:** May help with weight reduction and has shown benefit in heart failure outcomes, which could be relevant given the patient's vascular complications.\n\n**Note:** Monitor for possible side effects like genital mycotic infections and ensure adequate hydration. The patient's foot ulcers require close monitoring regardless of medication choice."
+      },
+      {
+        "id": "open_14",
+        "condition": "Renal Insufficiency",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 15,
+        "judge": 2,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple, severe complications (including recurrent foot ulcers, neuropathy, retinal ischemia, and neovascular glaucoma), a history of significant hypoglycemia, and now renal insufficiency.\n\n**Recommended Medication: A sodium-glucose cotransporter-2 (SGLT2) inhibitor (e.g., empagliflozin).**\n\n**Brief Rationale:**\n\n1.  **Renal and Cardiovascular Protection:** SGLT2 inhibitors have proven benefits in slowing the progression of chronic kidney disease (CKD) and reducing heart failure hospitalizations. This is a critical consideration given the patient's renal insufficiency and the high cardiovascular risk implied by their diabetic complications.\n2.  **Low Hypoglycemia Risk:** They work independently of insulin, carrying a very low risk of hypoglycemia when used alone. This is essential for a patient with documented **hypoglycemia unawareness (G11)** and prior **hypoglycemia (G12)**.\n3.  **Potential Benefits for Complications:** While not their primary indication, the modest weight loss and osmotic diuresis may provide some ancillary benefit for the patient's **dyslipidemia (G9)** and peripheral edema often associated with ulcers. More importantly, their cardiorenal benefits address the systemic vascular disease driving many of the patient's complications.\n\n**Important Considerations & Caveats:**\n*   **Renal Dosing:** The dose of the SGLT2 inhibitor must be adjusted for the patient's level of renal function (e.g., empagliflozin is not recommended if eGFR is persistently below 20 mL/min/1.73m²).\n*   **Monitoring:** There is an increased risk of genital mycotic infections, and a potential risk of euglycemic diabetic ketoacidosis (though rare in type 2 diabetes). Adequate hydration should be maintained.\n*   **Foot Ulcers:** While these drugs are not contraindicated, the presence of **multiple active"
+      },
+      {
+        "id": "open_15",
+        "condition": "Acidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple severe complications, including recurrent foot/lower limb ulcers, retinal ischemia, neovascular glaucoma, and a significant history of hypoglycemia and hypoglycemia unawareness. The new presentation of **acidosis** is a critical finding that suggests **diabetic ketoacidosis (DKA)**, which is a medical emergency.\n\nGiven this acute presentation, the most appropriate immediate glucose-lowering medication is **insulin** (intravenous initially, then transitioning to subcutaneous).\n\n**Rationale:**\n1.  **Acidosis/DKA Treatment:** Insulin is the cornerstone of therapy for DKA. It rapidly corrects hyperglycemia, suppresses ketogenesis, and reverses acidosis. No other glucose-lowering medication can achieve this.\n2.  **Safety with Complications:** The patient has a history of hypoglycemia unawareness. In an inpatient setting with DKA, insulin can be administered via continuous intravenous infusion with frequent glucose monitoring, allowing for precise titration and minimizing hypoglycemia risk.\n3.  **Contraindication of Other Agents:** Several non-insulin medications (particularly SGLT2 inhibitors) should be stopped immediately if DKA is suspected, as they can be a contributing factor. Other oral agents are ineffective or unsafe in the acute setting of DKA, severe illness, or with multiple advanced complications.\n\n**Important Note:** This recommendation is for the **acute management** of the acidosis/DKA episode. Once the patient is stabilized, a comprehensive, long-term diabetes management plan must be developed, considering their complex history of microvascular and macrovascular complications."
+      },
+      {
+        "id": "open_16",
+        "condition": "Heart Failure",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 5,
+        "answer": "Based on the evidence provided, which shows multiple diabetes-related complications including retinopathy, neuropathy, and foot ulcers, along with a new diagnosis of heart failure, the recommended glucose-lowering medication to start is a **SGLT2 inhibitor (e.g., empagliflozin or dapagliflozin)**.\n\n**Brief Rationale:**\nSGLT2 inhibitors are the preferred choice in this clinical scenario because they provide dual cardiorenal protection. They have proven cardiovascular benefits, including a reduction in hospitalization for heart failure and cardiovascular death, which directly addresses the patient's new heart failure diagnosis. Additionally, they promote weight loss, have a low risk of hypoglycemia (important given the patient's history of hypoglycemia unawareness), and may aid in wound healing through osmotic diuresis and improved vascular function, which is relevant for the patient's multiple foot and skin ulcers. Their mechanism is independent of insulin, making them effective even in advanced disease."
+      },
+      {
+        "id": "open_17",
+        "condition": "Kidney Diseases",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 12,
+        "judge": 5,
+        "answer": "Based on the evidence provided, which shows multiple diabetes-related complications including retinopathy, neuropathy, foot ulcers, and dyslipidemia—and with the new information that the patient also has kidney disease—the recommended glucose-lowering medication to start is a **SGLT2 inhibitor (e.g., empagliflozin, canagliflozin, or dapagliflozin)**.\n\n**Brief Rationale:**  \nSGLT2 inhibitors are preferred in this clinical scenario because they provide cardiovascular and renal protection independent of glucose lowering. They have proven benefits in slowing the progression of kidney disease and reducing the risk of hospitalization for heart failure. Given the patient's existing microvascular complications (retinal ischemia, neuropathy, foot ulcers) and dyslipidemia, an agent that also reduces cardiovascular risk is crucial. Additionally, SGLT2 inhibitors are associated with a low risk of hypoglycemia, which is important given the evidence of hypoglycemia unawareness [G11] and prior hypoglycemia [G12]. Dosing adjustments are available for reduced kidney function, making them suitable for patients with kidney disease."
+      },
+      {
+        "id": "open_18",
+        "condition": "Carcinoma, Medullary",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 2,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple complications (severe neuropathy, foot ulcers, retinal ischemia, neovascular glaucoma) and a significant risk of hypoglycemia. They also have medullary carcinoma.\n\nGiven this complex profile, the most appropriate medication to start is a **GLP-1 receptor agonist (e.g., semaglutide or liraglutide)**.\n\n**Rationale:**\n1.  **Cardiovascular and Renal Protection:** GLP-1 RAs have proven cardiovascular benefits, reducing major adverse cardiovascular events. This is crucial for a patient with evidence of microvascular (retinal, renal) and likely macrovascular disease.\n2.  **Weight Loss:** They promote significant weight loss, which is beneficial for glycemic control and overall metabolic health.\n3.  **Low Hypoglycemia Risk:** When used without insulin or sulfonylureas, they carry a very low risk of hypoglycemia, which is critical given the patient's documented \"hypoglycemia unawareness.\"\n4.  **No Direct Conflict with Medullary Carcinoma:** Importantly, GLP-1 RAs are not contraindicated in medullary carcinoma. This is a key distinction from **SGLT2 inhibitors**, which should be avoided in this patient due to a potential increased risk of lower-limb amputation (given the existing foot ulcers) and the need to monitor for euglycemic DKA. Other agents like insulin or sulfonylureas would significantly increase the risk of dangerous hypoglycemia.\n\n**Therefore, a GLP-1 receptor agonist offers effective glucose lowering with a favorable safety profile, addressing multiple complications while avoiding exacerbation of hypoglycemia or the patient's specific cancer history.**"
+      },
+      {
+        "id": "open_19",
+        "condition": "Carcinoma, Neuroendocrine",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 3,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple severe complications, including proliferative retinopathy/retinal ischemia, neovascular glaucoma, and extensive foot ulcers with neuropathy. They also have a critical history of **hypoglycemia and hypoglycemia unawareness**, which is a major safety concern.\n\nThe recommended glucose-lowering medication to start is a **GLP-1 receptor agonist (e.g., semaglutide or dulaglutide)**.\n\n**Brief Rationale:**\n1.  **Low Hypoglycemia Risk:** GLP-1 RAs have a glucose-dependent mechanism of action, meaning they significantly lower blood glucose only when it is elevated. This makes them one of the safest classes for a patient with a history of hypoglycemia and hypoglycemia unawareness.\n2.  **Cardiovascular and Renal Benefits:** This patient has advanced microvascular disease (eyes, feet, nerves). GLP-1 RAs have proven cardiovascular benefits and reduce the risk of major adverse cardiovascular events, which is a critical consideration given the patient's high-risk profile.\n3.  **Weight Loss:** This can be beneficial for managing type 2 diabetes and may improve metabolic parameters.\n4.  **Consideration of Neuroendocrine Carcinoma:** While all medications require review with the oncology team, GLP-1 RAs are generally considered safe in the context of most cancers. They are not known to promote tumor growth. The priority here is safely managing severe diabetes complications without causing hypoglycemia.\n\n**Important Note:** The choice of a specific agent and dose must be made in close consultation with the patient's oncology team, given the neuroendocrine carcinoma diagnosis. The patient's overall prognosis, treatment plan, and nutritional status must be factored into the final decision. **SGLT2 inhibitors, another excellent class with cardio-renal benefits, would be relatively contraindicated here due to the active foot ulcers and increased risk of genital mycotic infections.**"
+      },
+      {
+        "id": "open_20",
+        "condition": "Gastroparesis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 2,
+        "answer": "Based on the evidence provided, I recommend starting the patient on a **GLP-1 receptor agonist (e.g., semaglutide or liraglutide)**.\n\n**Brief Rationale:**  \nThe patient has multiple diabetes-related complications, including **gastroparesis** (G1), which complicates medication choice. While GLP-1 agonists can slow gastric emptying, they have demonstrated significant benefits in reducing major adverse cardiovascular events and promoting weight loss—important given the patient’s dyslipidemia (G10) and multiple foot ulcers (G5–G8), which suggest high cardiovascular risk and potential need for weight management. Importantly, GLP-1 agonists are also effective at lowering glucose with a low risk of hypoglycemia, which is critical given the patient’s **hypoglycemia unawareness** (G12).  \n\nIf gastroparesis symptoms are severe, alternatives like **SGLT2 inhibitors** could be considered due to their cardiorenal benefits and neutral effect on gastric motility, but they may be less ideal with active foot ulcers. GLP-1 agonists offer a broader benefit profile for this high-risk patient, though close monitoring of gastroparesis symptoms is essential."
+      },
+      {
+        "id": "open_21",
+        "condition": "Lactation",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the patient has type 2 diabetes with multiple, severe complications (including active foot ulcers, retinal ischemia, neovascular glaucoma, and hypoglycemia unawareness), indicating longstanding and likely poorly controlled diabetes. The critical additional factor is that the patient is **lactating**.\n\nConsidering the need for effective glucose control without exacerbating hypoglycemia or harming the infant, the most appropriate **single medication to start** is **insulin**.\n\n**Brief Rationale:**\n1.  **Safety in Lactation:** Insulin is a large peptide molecule that does not pass into breast milk in significant amounts and is not orally bioavailable, making it the safest and most established glucose-lowering therapy during lactation. All oral agents have limited or unknown safety data for breastfeeding infants.\n2.  **Clinical Urgency:** The presence of active, multiple foot ulcers and vision-threatening complications (retinal ischemia, neovascular glaucoma) indicates an urgent need for effective glycemic control to promote healing and prevent further damage. Insulin is the most potent glucose-lowering agent and allows for rapid, titratable control.\n3.  **Hypoglycemia Risk:** The patient has a history of hypoglycemia and hypoglycemia unawareness. With insulin, the dose can be carefully titrated, and a regimen like basal insulin can be initiated to provide a stable background level, minimizing the risk of hypoglycemia compared to some oral agents (particularly sulfonylureas, which are contraindicated here). Close self-monitoring of blood glucose is essential.\n4.  **Avoidance of Oral Agents:** Most non-insulin agents (e.g., SGLT2 inhibitors, GLP-1 RAs, metformin) have insufficient safety data in lactation. Metformin, while sometimes used, is excreted in breast milk, and its long-term effects on a nursing infant are not fully known. Given the severity of this patient's complications, the certainty of insulin's safety profile is paramount.\n\n**In summary, insulin is the recommended"
+      },
+      {
+        "id": "open_22",
+        "condition": "Intestinal Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 13,
+        "judge": 2,
+        "answer": "Based on the evidence, I recommend starting the patient on **metformin** (assuming no contraindications such as severe renal impairment, acidosis, or hypoxia).  \n\n**Brief rationale:**  \n- The patient has **intestinal obstruction**, which is a contraindication for **acarbose** (G1). Acarbose works locally in the intestines and can worsen gastrointestinal symptoms or obstruction.  \n- The patient has multiple diabetes-related complications (neuropathy, foot ulcers, retinal ischemia, neovascular glaucoma, dyslipidemia), suggesting a need for effective glycemic control with cardiovascular and end-organ protective benefits.  \n- Metformin is a first-line agent in type 2 diabetes, does not cause hypoglycemia (important given **hypoglycemia unawareness**, G12), may aid in weight management, and has a favorable effect on lipids (relevant for dyslipidemia, G10).  \n- However, if metformin is contraindicated or not tolerated, alternatives like an SGLT2 inhibitor (e.g., empagliflozin) or GLP-1 receptor agonist could be considered for their cardiovascular and renal benefits, though intestinal obstruction may require caution with GLP-1 agonists due to GI side effects.  \n\nGiven the complexity, the choice should be individualized, but **metformin** is the most appropriate initial oral agent in this scenario, provided no other contraindications exist."
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "open_0",
+        "condition": "Diabetic Ketoacidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "Based on the evidence provided, which includes a specific note on the risk of diabetic ketoacidosis (DKA) with SGLT2 inhibitors in type 1 diabetes, the recommended glucose-lowering medication to start for this patient with **type 2 diabetes mellitus (T2DM) and concurrent Diabetic Ketoacidosis (DKA)** is **insulin**.\n\n**Brief Rationale:**\n1.  **First-line Acute Management:** DKA is a life-threatening acute complication of diabetes that requires immediate treatment with insulin to correct hyperglycemia and ketosis. Insulin therapy is non-negotiable and foundational in this setting.\n2.  **Safety with SGLT2 Inhibitors:** The evidence ([V9]) highlights that SGLT2 inhibitors carry a risk of precipitating or contributing to DKA, even in type 1 diabetes. While the patient has T2DM, the presence of active DKA makes initiating an SGLT2 inhibitor contraindicated and unsafe at this time.\n3.  **Addressing Complications:** The patient's profile includes several diabetes-related complications (retinal ischemia, skin/foot ulcers, glaucoma suspect). Insulin is a highly effective agent for achieving glycemic control, which is critical to managing and preventing the progression of these microvascular complications.\n\n**Conclusion:** Insulin is the essential and safest choice to manage both the acute DKA and the underlying T2DM. Once the DKA is fully resolved and the patient is stable, the long-term medication regimen, including the potential role for agents like SGLT2 inhibitors for cardiorenal benefits, can be re-evaluated."
+      },
+      {
+        "id": "open_1",
+        "condition": "Diabetes Mellitus, Type 1",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "Based on the provided evidence, which indicates the patient has both type 2 and type 1 diabetes mellitus, the recommended initial glucose-lowering medication to start is **insulin**.\n\n**Rationale:** The diagnosis of type 1 diabetes mellitus is the key determinant. Type 1 diabetes is characterized by an absolute deficiency of insulin due to autoimmune destruction of pancreatic beta cells. Therefore, insulin therapy is not just a treatment option but an essential, life-saving replacement therapy. While the patient also has type 2 diabetes (which may involve insulin resistance), the presence of type 1 diabetes mandates insulin as the foundational treatment to prevent diabetic ketoacidosis and manage blood glucose effectively. Oral agents or other non-insulin injectables used for type 2 diabetes are not appropriate as sole therapies for type 1 diabetes.\n\n**Note on Evidence:** The provided evidence highlights several complications related to type 2 diabetes (e.g., glaucoma suspect, skin ulcers, retinal ischemia), underscoring the importance of effective glycemic control. However, the co-diagnosis of type 1 diabetes fundamentally changes the treatment approach, prioritizing insulin initiation."
+      },
+      {
+        "id": "open_2",
+        "condition": "Digestive System Abnormalities",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "Based on the provided evidence, I recommend avoiding acarbose and miglitol due to the patient's digestive system abnormalities. Instead, a suitable alternative to consider would be a medication from a class not contraindicated with digestive issues, such as metformin (if tolerated and not contraindicated by other conditions like severe renal impairment), a DPP-4 inhibitor (e.g., sitagliptin), or an SGLT2 inhibitor (e.g., empagliflozin), depending on the patient's overall profile.\n\n**Brief Rationale:** The evidence explicitly states that both acarbose [G2] and miglitol [G4] are contraindicated in patients with digestive system abnormalities. Starting either of these could worsen gastrointestinal symptoms or be poorly tolerated. Therefore, a medication without this specific contraindication should be chosen. The recommendation above prioritizes safety by avoiding agents known to cause or exacerbate digestive issues."
+      },
+      {
+        "id": "open_3",
+        "condition": "Multiple Endocrine Neoplasia Type 2a",
+        "violation": true,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 11,
+        "judge": 3,
+        "answer": "Based on the provided evidence and the patient's specific conditions, I recommend **starting a GLP-1 receptor agonist (e.g., liraglutide or semaglutide)**.\n\n**Brief Rationale:**\n\nThe evidence highlights that the patient has Type 2 Diabetes Mellitus (T2DM) with several diabetes-related complications, including skin ulcers of the foot/toe, retinal ischemia, and glaucoma suspect. This indicates a need for a glucose-lowering agent that also provides robust cardiovascular and renal protection, as well as promoting weight loss, which is often beneficial in T2DM.\n\nWhile the provided evidence does not detail the specific manifestations of the patient's **Multiple Endocrine Neoplasia Type 2a (MEN2a)**, this condition is critically important to the choice of medication. MEN2a is primarily characterized by medullary thyroid carcinoma (MTC), pheochromocytoma, and hyperparathyroidism.\n\n*   **GLP-1 receptor agonists** are a suitable choice because they are not contraindicated in MEN2a. They do not carry a known risk of exacerbating MTC or pheochromocytoma.\n*   **In contrast, other major drug classes like SGLT2 inhibitors should be used with extreme caution or avoided if a pheochromocytoma is present or suspected, due to potential interactions.** Similarly, the safety profile of GLP-1 RAs is favorable in the context of the patient's diabetic foot ulcers and retinopathy.\n\nTherefore, a GLP-1 receptor agonist addresses the diabetic complications noted in the evidence while being the safest choice given the concurrent MEN2a diagnosis. **It is absolutely essential that any pheochromocytoma is ruled out or adequately treated prior to initiating any new medication.** The final treatment plan must be coordinated with an endocrinologist managing the MEN2a."
+      },
+      {
+        "id": "open_4",
+        "condition": "Thyroid Neoplasms",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 14,
+        "judge": 4,
+        "answer": "Based on the provided evidence, which highlights multiple diabetes-related complications (glaucoma suspect, retinal ischemia, foot/toe ulcers), the patient has established microvascular complications and likely requires glucose control with additional benefits beyond lowering blood sugar. Given the co-existing **Thyroid Neoplasms**, the recommended medication is **GLP-1 receptor agonists (e.g., semaglutide or liraglutide)**.\n\n**Brief rationale:**\n1. **Cardiovascular and renal protection:** GLP-1 agonists have proven benefits in reducing major adverse cardiovascular events and slowing kidney disease progression, which is crucial for a patient already showing signs of microvascular damage (retinal, skin ulcers).\n2. **Weight loss:** These agents promote significant weight reduction, improving insulin sensitivity and overall metabolic health.\n3. **Neutrality regarding thyroid neoplasms:** Unlike some older medications (e.g., sulfonylureas, which may promote weight gain and hypoglycemia), GLP-1 agonists do not have known direct adverse effects on thyroid tumors. However, note that they are contraindicated in patients with a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). Since the patient has thyroid neoplasms, it is essential to rule out MTC before initiation. If MTC is excluded, GLP-1 agonists are a suitable choice.\n4. **Low hypoglycemia risk:** They carry a minimal risk of hypoglycemia when used without insulin or sulfonylureas, enhancing safety.\n\n**Important consideration:** Before prescribing, confirm the type of thyroid neoplasm (especially excluding medullary thyroid carcinoma) and assess renal function. If GLP-1 agonists are not appropriate, SGLT2 inhibitors (e.g., empagliflozin) would be an alternative, offering cardiovascular and renal benefits with a neutral effect on thyroid conditions, but they may be less optimal if the patient has significant foot ulcers (increased risk of genital infections"
+      },
+      {
+        "id": "open_5",
+        "condition": "Kidney Failure, Chronic",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 5,
+        "answer": "Based on the provided evidence, I cannot recommend starting **canagliflozin** or **ertugliflozin** for this patient.\n\n**Recommendation: This patient requires a medication choice that is safe for chronic kidney disease (CKD). The evidence explicitly states that SGLT2 inhibitors like canagliflozin [G2] and ertugliflozin [G4] are contraindicated in chronic kidney failure.**\n\n**Rationale:** The patient's chronic kidney failure is the most critical factor guiding this decision. Many glucose-lowering medications require dose adjustment or are contraindicated as kidney function declines. To select a specific, safe medication, additional information is needed, such as the patient's **estimated glomerular filtration rate (eGFR)**, current glycemic control (e.g., HbA1c), and any other comorbidities.\n\n**General Guidance:** For patients with type 2 diabetes and advanced CKD, treatment options often include:\n*   **Insulin therapy** (as highlighted in evidence [V7]), which is highly effective and not cleared by the kidneys.\n*   **Certain GLP-1 receptor agonists** (e.g., liraglutide, semaglutide), which generally do not require dose adjustment for CKD.\n*   **DPP-4 inhibitors** like linagliptin, which does not require dose adjustment at any stage of CKD.\n\n**Next Step:** Please consult the patient's most recent eGFR and a comprehensive medication list to determine the safest and most appropriate single agent or regimen. Starting insulin or a GLP-1 receptor agonist approved for use in CKD would be a common consideration."
+      },
+      {
+        "id": "open_6",
+        "condition": "Liver Diseases",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 11,
+        "judge": 4,
+        "answer": "Based on the provided evidence, **metformin should NOT be recommended** for this patient.\n\n**Recommendation: A medication from a class not contraindicated in liver disease should be chosen.** Since the evidence specifically lists common medications (metformin, rosiglitazone, pioglitazone) as contraindicated with Liver Diseases, a safe alternative must be selected.\n\n**Rationale:** The knowledge graph evidence (G2, G4, G6) with high confidence (1.0) explicitly states that **metformin, rosiglitazone, and pioglitazone are all contraindicated in patients with Liver Diseases.** Therefore, starting any of these medications would be inappropriate and potentially harmful for this patient.\n\nTo proceed safely, a medication class without this contraindication should be selected, such as:\n*   **A DPP-4 inhibitor** (e.g., sitagliptin, linagliptin)\n*   **An SGLT2 inhibitor** (e.g., empagliflozin, canagliflozin)\n*   **A GLP-1 receptor agonist** (e.g., liraglutide, semaglutide)\n*   **Insulin**\n\n**A specific recommendation cannot be made with the given evidence** because the provided information only lists contraindications, not positive recommendations. The clinical assistant would need additional patient details (e.g., kidney function, cardiovascular risk, HbA1c level, weight) to choose the single most appropriate agent from the safe classes listed above."
+      },
+      {
+        "id": "open_7",
+        "condition": "Pregnancy",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "Based on the provided evidence, I cannot recommend a specific glucose-lowering medication to start for this pregnant patient with type 2 diabetes.\n\n**Explanation:**\nThe evidence consistently shows contraindications for several common diabetes medications during pregnancy:\n*   **Sulfonylureas:** Chlorpropamide, tolbutamide, tolazamide, and acetohexamide are all contraindicated (G2, G4, G6, G8).\n*   **GLP-1 Agonist:** Liraglutide is also contraindicated (G10).\n\nThe evidence does not provide information on which medications are *safe* or *recommended* for use during pregnancy. Initiating a new medication in this context requires selecting an agent with a proven safety profile for both the mother and the developing fetus, such as insulin or possibly metformin (though its use can be debated and is not mentioned in the provided evidence).\n\n**Therefore, the appropriate clinical action is to consult current clinical guidelines (e.g., from the American Diabetes Association or the American College of Obstetricians and Gynecologists) and/or refer to a maternal-fetal medicine specialist or endocrinologist for a definitive treatment plan.** Insulin is typically the cornerstone of therapy for diabetes management during pregnancy."
+      },
+      {
+        "id": "open_8",
+        "condition": "Hypoglycemia",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "Based on the provided evidence, I cannot recommend a specific glucose-lowering medication for this patient.\n\n**Explanation:**\nThe evidence exclusively lists rapid-acting and long-acting **insulins** (glulisine, lispro, aspart, glargine, degludec), and all are explicitly contraindicated in patients with Hypoglycemia. Since the patient already has hypoglycemia, starting any form of insulin would be inappropriate and potentially dangerous, as it would significantly increase the risk of worsening hypoglycemic events.\n\n**Clinical Recommendation:**\nTo make a safe recommendation, information about alternative, non-insulin glucose-lowering medications is required. In a clinical setting, for a patient with type 2 diabetes and hypoglycemia, the initial approach would typically involve:\n1.  **Reviewing the cause of hypoglycemia** (e.g., diet, other medications, renal function).\n2.  **Considering agents with a low risk of hypoglycemia**, such as:\n    *   Metformin (if renal function is adequate)\n    *   SGLT2 inhibitors (e.g., empagliflozin, dapagliflozin)\n    *   GLP-1 receptor agonists (e.g., liraglutide, semaglutide)\n    *   DPP-4 inhibitors (e.g., sitagliptin, linagliptin)\n\n**Please consult the patient's full medical history and laboratory results, and consider non-insulin therapeutic options before initiating any new glucose-lowering therapy.**"
+      },
+      {
+        "id": "open_9",
+        "condition": "Malabsorption Syndromes",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the evidence provided, I recommend avoiding acarbose and miglitol for this patient and instead starting a medication not contraindicated with malabsorption syndromes, such as metformin.\n\n**Recommendation: Start metformin.**\n\n**Brief Rationale:**\nThe evidence shows that both acarbose [G2] and miglitol [G4] are contraindicated in patients with Malabsorption Syndromes. Since this patient has type 2 diabetes mellitus and Malabsorption Syndromes, these alpha-glucosidase inhibitors should not be used.\n\nMetformin is a first-line oral medication for type 2 diabetes that works primarily by reducing hepatic glucose production. Its mechanism of action is systemic and not dependent on gastrointestinal absorption of nutrients, making it a suitable choice where malabsorption is a concern. It does not have a known contraindication with malabsorption syndromes, unlike the agents specified in the provided evidence."
+      },
+      {
+        "id": "open_10",
+        "condition": "Multiple Endocrine Neoplasia Type 2b",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 1,
+        "answer": "Based on the provided evidence and the patient's specific condition, I recommend starting **liraglutide** (a GLP-1 receptor agonist).\n\n**Brief Rationale:**\n\nThe evidence highlights that this patient with type 2 diabetes is already experiencing or is at high risk for significant microvascular complications, including glaucoma, retinal ischemia, and foot/skin ulcers. The primary goals are therefore effective glucose control and weight management, while minimizing the risk of hypoglycemia.\n\nLiraglutide is particularly suitable here because:\n1.  **Cardiovascular and Renal Benefits:** GLP-1 RAs like liraglutide have proven cardiovascular outcome benefits, which is crucial for a patient showing signs of advanced microvascular disease.\n2.  **Weight Loss:** It promotes significant weight loss, addressing a core pathophysiological component of type 2 diabetes and reducing metabolic strain.\n3.  **Low Hypoglycemia Risk:** When used without insulin or sulfonylureas, it carries a very low risk of hypoglycemia, which is safer for patients with complications.\n4.  **Consideration for MEN2b:** While not detailed in the provided snippets, MEN2b is associated with medullary thyroid carcinoma (MTC). Liraglutide and other GLP-1 RAs carry a boxed warning regarding a potential risk of thyroid C-cell tumors. **However, this warning is based on rodent studies, and human relevance is unclear. The contraindication is specifically for patients with a personal or family history of MTC or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).** Given the patient's diagnosis of MEN2b, this is a critical contraindication.\n\n**Important Caveat and Final Recommendation:**\nDue to the **absolute contraindication** of GLP-1 receptor agonists in patients with MEN2, **liraglutide cannot be used.**\n\n**Therefore, the most appropriate alternative is an SGLT2 inhibitor (e.g., empagl"
+      },
+      {
+        "id": "open_11",
+        "condition": "Liver Cirrhosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "Based on the provided evidence, for a patient with type 2 diabetes and liver cirrhosis, I recommend starting **insulin** as the glucose-lowering medication.\n\n**Brief Rationale:**\nThe key evidence is from G2, which states that **acarbose is contraindicated with liver cirrhosis**. This immediately rules out a common oral medication. Liver cirrhosis significantly alters drug metabolism, making many oral agents (like sulfonylureas, which can cause hypoglycemia, or metformin, which carries a lactate acidosis risk in advanced liver disease) potentially unsafe or requiring extreme caution. Insulin is primarily metabolized peripherally and does not rely on hepatic processing for its action or elimination, making it a safer and more predictable choice for glucose control in this context. It allows for precise dosing that can be adjusted based on the patient's renal function, nutritional status, and variable oral intake, which are common concerns in cirrhosis."
+      },
+      {
+        "id": "open_12",
+        "condition": "Colitis, Ulcerative",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the provided evidence, I recommend **avoiding acarbose and miglitol** for this patient.\n\n**Recommendation: Do not start acarbose or miglitol. Consider an alternative class of medication.**\n\n**Brief Rationale:**\nThe evidence shows that both acarbose [G2] and miglitol [G4] are contraindicated in patients with Ulcerative Colitis. Since this patient has both Type 2 Diabetes Mellitus and Ulcerative Colitis, starting either of these alpha-glucosidase inhibitors could worsen their gastrointestinal condition.\n\nTo select a specific alternative medication, additional clinical information (such as HbA1c, kidney function, cardiovascular risk, and patient preferences) would be required. Suitable first-line options to consider, in consultation with the patient's full clinical profile, would typically include medications like metformin, SGLT2 inhibitors, or GLP-1 receptor agonists, which do not have a known contraindication for Ulcerative Colitis."
+      },
+      {
+        "id": "open_13",
+        "condition": "Intestinal Pseudo-Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 4,
+        "answer": "Based on the provided evidence, I recommend avoiding **miglitol** and instead starting a medication like **liraglutide** or another GLP-1 receptor agonist, with a brief rationale as follows.\n\n**Recommendation: Liraglutide (a GLP-1 receptor agonist)**\n\n**Brief Rationale:**\nThe key evidence ([G2]) states that **miglitol** (an alpha-glucosidase inhibitor) is contraindicated in patients with Intestinal Pseudo-Obstruction. Miglitol works locally in the intestines to delay carbohydrate absorption, commonly causing gastrointestinal side effects like flatulence, diarrhea, and abdominal discomfort. Administering it in the setting of a known intestinal motility disorder like pseudo-obstruction could exacerbate symptoms or lead to complications.\n\nTherefore, an agent with a different mechanism of action that does not primarily target intestinal function is preferable. **Liraglutide**, as a GLP-1 receptor agonist, primarily lowers glucose by stimulating insulin secretion, suppressing glucagon, and slowing gastric emptying (which may be a consideration in some motility disorders). However, its systemic action and proven benefits on cardiovascular and renal outcomes make it a suitable first-line alternative for many patients with type 2 diabetes, provided its gastrointestinal side effects (like nausea) are monitored. Other options like SGLT2 inhibitors (e.g., empagliflozin) or DPP-4 inhibitors (e.g., sitagliptin) could also be considered, as they lack direct intestinal enzyme inhibition."
+      },
+      {
+        "id": "open_14",
+        "condition": "Renal Insufficiency",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 3,
+        "answer": "Based on the provided evidence, which highlights diabetes-related complications including retinopathy and skin ulcers, and considering the patient's renal insufficiency, I recommend starting **empagliflozin**.\n\n**Brief rationale:**  \nEmpagliflozin is an SGLT2 inhibitor with proven cardiovascular and renal protective benefits, independent of its glucose-lowering effect. It is effective in patients with renal impairment (including moderate insufficiency) and does not require dose adjustment until eGFR falls below certain thresholds. Given the patient's existing renal insufficiency and the evidence of microvascular complications (retinal ischemia, skin ulcers), empagliflozin addresses both glycemic control and renal risk reduction."
+      },
+      {
+        "id": "open_15",
+        "condition": "Acidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 11,
+        "judge": 5,
+        "answer": "Based on the provided evidence, the patient has type 2 diabetes mellitus with a current complication of **Acidosis**.\n\nGiven the presence of acidosis, the most critical consideration is to **avoid medications that can cause or exacerbate this condition**. The primary class to avoid is **SGLT2 inhibitors** (e.g., canagliflozin, dapagliflozin, empagliflozin), as they are associated with an increased risk of euglycemic diabetic ketoacidosis (DKA).\n\n**Recommendation: Start INSULIN therapy.**\n\n**Brief Rationale:**\n1.  **Acidosis Management:** In the context of diabetes, acidosis (likely diabetic ketoacidosis, DKA, or a similar state) is a medical emergency that requires immediate correction of hyperglycemia, dehydration, and electrolyte imbalances. Insulin is the cornerstone of treatment to reverse ketosis and acidosis.\n2.  **Safety:** Insulin is effective and does not carry a risk of inducing or worsening acidosis when dosed appropriately. It is the standard and safest initial agent in this acute scenario.\n3.  **Evidence Context:** While the provided evidence lists chronic complications (glaucoma, ulcers, retinopathy), the acute presentation of acidosis takes precedence. Insulin provides the rapid and predictable glucose-lowering effect needed.\n\n**Next Steps:** Insulin should be initiated in a monitored setting (e.g., hospital) with intravenous infusion for severe acidosis, transitioning to subcutaneous regimen as the patient stabilizes. After the acidosis is resolved, a long-term medication regimen can be planned, considering the patient's other complications."
+      },
+      {
+        "id": "open_16",
+        "condition": "Heart Failure",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 4,
+        "answer": "Based on the provided evidence and the patient's condition of type 2 diabetes with concomitant heart failure, the recommended glucose-lowering medication to start is **semaglutide**.\n\n**Brief Rationale:**\nThe evidence from [V7] specifically addresses semaglutide and cardiovascular outcomes in patients with type 2 diabetes. For patients with type 2 diabetes who also have heart failure, guidelines strongly favor medications proven to reduce major adverse cardiovascular events and hospitalization for heart failure. Semaglutide, a GLP-1 receptor agonist, has demonstrated cardiovascular benefit, including a reduction in cardiovascular death and hospitalization for heart failure in high-risk patients. Starting this medication would therefore address both glycemic control and the critical comorbidity of heart failure, aligning with a comprehensive, evidence-based approach to management."
+      },
+      {
+        "id": "open_17",
+        "condition": "Kidney Diseases",
+        "violation": true,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 5,
+        "answer": "Based on the provided evidence, which indicates the patient has type 2 diabetes mellitus (T2DM) with associated kidney disease, the recommended glucose-lowering medication to start is a **SGLT2 inhibitor (e.g., empagliflozin, dapagliflozin, or canagliflozin)**.\n\n**Brief Rationale:**\nThe evidence highlights that kidney disease is a major complication of diabetes ([V5], [V7]). In patients with T2DM and established kidney disease, SGLT2 inhibitors are the preferred first-line medication (after metformin, or as an alternative if metformin is contraindicated or not tolerated) because they have proven **cardiorenal protective benefits**. Specifically, these medications have been shown in large clinical trials to slow the progression of chronic kidney disease, reduce the risk of hospitalization for heart failure, and lower cardiovascular mortality. This makes them uniquely suited for a patient with T2DM and kidney involvement, addressing both glycemic control and organ protection."
+      },
+      {
+        "id": "open_18",
+        "condition": "Carcinoma, Medullary",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 9,
+        "judge": 2,
+        "answer": "Based on the provided evidence, which highlights significant microvascular complications of type 2 diabetes (including glaucoma suspect, retinal ischemia, and foot/toe ulcers), the patient requires a medication that provides effective glycemic control while minimizing risks related to their comorbidities.\n\n**Recommended Medication: GLP-1 Receptor Agonist (e.g., semaglutide or dulaglutide)**\n\n**Brief Rationale:**\n1.  **Effective Glycemic Control:** GLP-1 RAs are highly effective at lowering HbA1c.\n2.  **Cardiovascular and Renal Benefits:** This class has proven cardiovascular outcome benefits, which is a critical consideration given the patient's diabetic complications (retinal ischemia, foot ulcers) that signal systemic vascular disease. While not directly stated, the presence of microvascular disease increases the risk of macrovascular events.\n3.  **Weight Loss:** Most GLP-1 RAs promote significant weight loss, which is a cornerstone of managing type 2 diabetes and can improve overall metabolic health.\n4.  **Low Risk of Hypoglycemia:** When used without insulin or sulfonylureas, they carry a very low risk of hypoglycemia, which is a safety advantage.\n5.  **Consideration for Medullary Carcinoma:** **Crucially, GLP-1 RAs are contraindicated in patients with a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).** Therefore, this recommendation is made with the critical assumption that the patient's \"Carcinoma, Medullary\" has been evaluated and is **not thyroidal in origin** (e.g., it is a medullary carcinoma of another tissue). If the medullary carcinoma is confirmed to be of the thyroid, a GLP-1 RA must be avoided.\n\n**Alternative if MTC is Thyroidal:**\nIf the medullary carcinoma is thyroidal, a **SGLT2 inhibitor (e"
+      },
+      {
+        "id": "open_19",
+        "condition": "Carcinoma, Neuroendocrine",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 11,
+        "judge": 3,
+        "answer": "Based on the provided evidence, which highlights the patient's type 2 diabetes mellitus and its associated microvascular complications (glaucoma suspect, retinal ischemia, foot ulcers), along with the new diagnosis of a neuroendocrine carcinoma, the recommended initial glucose-lowering medication is **metformin**.\n\n**Brief Rationale:**\n1.  **First-Line Standard of Care:** Metformin remains the foundational, first-line pharmacological therapy for type 2 diabetes mellitus due to its efficacy, favorable safety profile, and low risk of hypoglycemia.\n2.  **Relevance to Complications:** The evidence shows the patient has established diabetes-related complications (retinal, skin/ulcer). Metformin has evidence suggesting potential benefits beyond glucose control, including possible positive effects on microvascular outcomes, which is relevant for this patient's clinical picture.\n3.  **Safety with Comorbid Cancer:** In the context of a new neuroendocrine carcinoma diagnosis, medication safety and interaction profiles are critical. Metformin has a well-established safety record. Notably, there is ongoing research into metformin's potential role in cancer and other conditions, as indicated by the evidence (V9), though its primary use here is for glycemic control. It does not have known adverse interactions that would preclude its use in a patient with cancer, assuming normal renal function and no other specific contraindications.\n\n**Important Consideration:** Before prescribing, it is essential to verify that the patient has no contraindications to metformin, such as significant renal impairment, acute or unstable heart failure, or conditions predisposing to lactic acidosis. The presence of foot ulcers (G8, G10) requires careful assessment of renal function and tissue perfusion. The final treatment plan should be individualized and coordinated with the patient's oncology team."
+      },
+      {
+        "id": "open_20",
+        "condition": "Gastroparesis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 4,
+        "judge": 3,
+        "answer": "Based on the evidence provided, which highlights the association between gastroparesis and diabetes, the recommended glucose-lowering medication to start for this patient is a **GLP-1 receptor agonist (e.g., semaglutide, liraglutide)**.\n\n**Brief rationale:**  \nGLP-1 receptor agonists slow gastric emptying, which can help improve postprandial glucose control. However, in a patient with pre-existing gastroparesis, this effect may exacerbate symptoms like nausea, bloating, and early satiety. Therefore, while effective for glycemic control, they should be used with caution and at a low dose initially, with close monitoring for worsening gastroparesis symptoms. Alternative options like DPP-4 inhibitors (which have minimal effects on gastric emptying) or insulin (which does not affect gastrointestinal motility) may be considered if gastroparesis symptoms are severe."
+      },
+      {
+        "id": "open_21",
+        "condition": "Lactation",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "Based on the provided evidence and the patient's specific condition (type 2 diabetes mellitus during lactation), the recommended glucose-lowering medication to start is **insulin**.\n\n**Brief Rationale:**\nThe evidence highlights several serious complications of type 2 diabetes (e.g., retinal ischemia, glaucoma, foot ulcers), emphasizing the need for effective glycemic control. However, the critical factor for this patient is the safety profile during lactation. While the provided evidence focuses on pregnancy (V7, V9), the same principle of medication safety for the infant applies to breastfeeding. Most oral glucose-lowering medications have limited safety data or are known to pass into breast milk. Insulin is the preferred agent because:\n1.  It is a large peptide molecule that does not pass into breast milk in significant amounts.\n2.  It does not affect the infant's blood glucose when administered to the mother.\n3.  It allows for precise, titratable control to manage diabetes effectively while minimizing risk to the breastfeeding infant.\n\nTherefore, insulin therapy provides the safest and most effective option for achieving glycemic targets in this lactating patient with type 2 diabetes."
+      },
+      {
+        "id": "open_22",
+        "condition": "Intestinal Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "Based on the evidence provided, **acarbose is contraindicated** in patients with intestinal obstruction (G2). Therefore, it should not be used.\n\nFor a patient with type 2 diabetes and intestinal obstruction, a recommended initial glucose-lowering medication would be **insulin**.\n\n**Brief rationale:**\n1. **Safety in Intestinal Obstruction:** Insulin does not rely on gastrointestinal absorption or motility, making it safe and effective regardless of the intestinal condition.\n2. **Precise Control:** It allows for direct and titratable management of blood glucose, which is important in acute or complicated medical situations.\n3. **Avoidance of Oral Agents:** Many oral medications (like acarbose, GLP-1 receptor agonists, or metformin) may be unsuitable due to effects on the GI tract, absorption issues, or risk of side effects that could exacerbate the obstruction or be poorly tolerated.\n\n**Conclusion:** Insulin is the most appropriate choice to safely achieve glycemic control while the intestinal obstruction is managed."
+      }
+    ],
+    "full": [
+      {
+        "id": "open_0",
+        "condition": "Diabetic Ketoacidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "Based on the evidence, **insulin** is the recommended glucose-lowering medication to start for a patient with type 2 diabetes mellitus (T2DM) who also has diabetic ketoacidosis (DKA).\n\n**Brief Explanation:**\nDKA is a serious, acute complication requiring immediate treatment with insulin to correct hyperglycemia, ketosis, and acidosis. While the provided evidence highlights complications of T2DM (e.g., retinal ischemia, skin ulcers) and discusses SGLT2 inhibitors in the context of type 1 diabetes [V9], insulin remains the cornerstone therapy for DKA regardless of the underlying diabetes type. Other oral or non-insulin injectable agents are not appropriate for the emergency management of DKA."
+      },
+      {
+        "id": "open_1",
+        "condition": "Diabetes Mellitus, Type 1",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 4,
+        "judge": 5,
+        "answer": "Based on the evidence provided, the patient has both type 2 and type 1 diabetes. This is a complex scenario, and the core issue is that the patient has an absolute insulin deficiency from type 1 diabetes.\n\n**Recommendation: Insulin**\n\n**Brief Explanation:**\nThe evidence highlights multiple complications of diabetes (glaucoma suspect, retinal ischemia, foot/toe ulcers). However, the key factor for medication choice is the diagnosis of type 1 diabetes (T1D). T1D is characterized by autoimmune destruction of pancreatic beta-cells, leading to an absolute deficiency of insulin. Therefore, **insulin therapy is essential and life-saving**. No other glucose-lowering medication can substitute for this physiological requirement. Starting insulin is the only safe and appropriate initial therapy to manage this patient's condition."
+      },
+      {
+        "id": "open_2",
+        "condition": "Digestive System Abnormalities",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the provided evidence, acarbose and miglitol are contraindicated for patients with digestive system abnormalities [G2, G4]. Therefore, these medications should be avoided.\n\nA recommended alternative would be to start a medication from a class not contraindicated in digestive disorders, such as metformin, provided there are no other specific contraindications (e.g., severe renal impairment). Metformin is a first-line therapy for type 2 diabetes and does not have a known contraindication related to general digestive system abnormalities.\n\n**Recommendation:** Start **metformin**.\n\n**Brief explanation:** The alpha-glucosidase inhibitors (acarbose, miglitol) are contraindicated due to the patient's digestive system abnormalities. Metformin is a suitable first-line alternative as it is effective, generally well-tolerated, and its common gastrointestinal side effects are typically manageable and not an absolute contraindication for use in this context."
+      },
+      {
+        "id": "open_3",
+        "condition": "Multiple Endocrine Neoplasia Type 2a",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 10,
+        "judge": 5,
+        "answer": "Based on the evidence, a sodium-glucose cotransporter-2 (SGLT2) inhibitor would be a recommended choice for this patient.\n\n**Reasoning:**\n1.  The patient has type 2 diabetes with documented complications (skin ulcers, retinal ischemia), indicating a need for agents with proven cardiovascular and renal protective benefits.\n2.  SGLT2 inhibitors are recommended in guidelines (V3) for older adults with diabetes who have, or are at risk for, atherosclerotic cardiovascular disease, heart failure, or chronic kidney disease—complications often associated with diabetic ulcers and retinopathy.\n3.  This class is preferred over glucagon-like peptide-1 (GLP-1) receptor agonists in this specific case due to the patient's concurrent diagnosis of Multiple Endocrine Neoplasia Type 2a (MEN2a). MEN2a is strongly associated with medullary thyroid carcinoma, and GLP-1 receptor agonists carry a boxed warning regarding a risk of thyroid C-cell tumors in rodent studies. Although the human relevance is unclear, it is a precaution that makes SGLT2 inhibitors a safer initial choice.\n\n**Recommendation:** Start an SGLT2 inhibitor (e.g., empagliflozin, canagliflozin, or dapagliflozin), considering renal function and volume status."
+      },
+      {
+        "id": "open_4",
+        "condition": "Thyroid Neoplasms",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 13,
+        "judge": 4,
+        "answer": "Based on the evidence provided, which includes multiple diabetes complications (glaucoma suspect, diabetic gastroparesis, skin/foot ulcers, retinal ischemia), a medication that addresses hyperglycemia while minimizing risks of hypoglycemia and weight gain is preferred. Given the concurrent **Thyroid Neoplasms**, the choice should also consider any potential drug interactions or effects on thyroid tissue.\n\n**Recommended medication: Metformin**\n\n**Brief explanation:**\nMetformin is a first-line therapy for type 2 diabetes. It effectively lowers glucose with a low risk of hypoglycemia, is weight-neutral or promotes mild weight loss, and has a well-established safety profile. There is no known interaction with thyroid neoplasms or evidence that it adversely affects thyroid tissue. It is appropriate given the patient's spectrum of diabetic complications, as its use is not contraindicated by the listed conditions (e.g., gastroparesis, ulcers), though gastrointestinal side effects should be monitored.\n\n**Note:** A full clinical assessment is required before prescription. If metformin is contraindicated (e.g., severe renal impairment) or not tolerated, alternatives like a DPP-4 inhibitor (e.g., sitagliptin) could be considered, as they also have a neutral safety profile regarding thyroid conditions."
+      },
+      {
+        "id": "open_5",
+        "condition": "Kidney Failure, Chronic",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 3,
+        "answer": "Based on the provided evidence, SGLT2 inhibitors like canagliflozin and ertugliflozin are contraindicated in chronic kidney failure [G2, G4]. Therefore, they should not be started.\n\nFor a patient with type 2 diabetes and chronic kidney failure, a recommended and safe first-line glucose-lowering medication to consider is **insulin**. Insulin is effective, does not rely on kidney function for clearance, and its use in advanced kidney disease is supported by the literature addressing glycemic control challenges in this population [V7].\n\n**Recommendation: Start insulin therapy.**  \n**Reason:** It is a safe and effective option when renal impairment limits the use of other agents, such as SGLT2 inhibitors."
+      },
+      {
+        "id": "open_6",
+        "condition": "Liver Diseases",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 4,
+        "answer": "Based on the provided evidence, **avoid metformin, rosiglitazone, and pioglitazone** as they are contraindicated in patients with liver diseases (G2, G4, G6).\n\nA safer initial choice would be an agent not contraindicated with liver disease, such as a **DPP-4 inhibitor (e.g., sitagliptin)**, an **SGLT2 inhibitor (e.g., empagliflozin)**, or **insulin**, depending on the patient's specific clinical context (e.g., kidney function, cardiovascular risk, HbA1c level). However, since the question asks for one medication and the evidence does not specify the severity of liver disease, **a DPP-4 inhibitor is often a reasonable, well-tolerated option** to start with, as it has a low risk of hypoglycemia and no known hepatic contraindication.\n\n**Recommendation: Start a DPP-4 inhibitor (e.g., sitagliptin).**  \n**Brief explanation:** It is effective, has a neutral weight effect, minimal hypoglycemia risk, and no specific contraindication in stable liver disease, unlike the agents listed in the evidence."
+      },
+      {
+        "id": "open_7",
+        "condition": "Pregnancy",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "Based on the evidence, sulfonylureas (chlorpropamide, tolbutamide, tolazamide, acetohexamide) and liraglutide are contraindicated in pregnancy. Therefore, **insulin** is the recommended glucose-lowering medication to start.\n\n**Explanation:** Insulin is the standard therapy for diabetes in pregnancy as it does not cross the placenta and allows for precise glycemic control, which is critical for maternal and fetal outcomes. The provided evidence explicitly contraindicates several oral agents and GLP-1 receptor agonists, reinforcing insulin as the safe and preferred choice."
+      },
+      {
+        "id": "open_8",
+        "condition": "Hypoglycemia",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 5,
+        "answer": "Based on the evidence, insulin and rapid-acting insulin analogs (glulisine, lispro, aspart) are contraindicated in hypoglycemia. Long-acting insulins (glargine, degludec) are also contraindicated.\n\nFor a patient with type 2 diabetes and hypoglycemia, a safe initial glucose-lowering medication would be a drug class not associated with a significant risk of hypoglycemia. The evidence provided does not list contraindications for medications like **metformin**, which is a first-line therapy for type 2 diabetes and carries a very low risk of hypoglycemia when used alone.\n\n**Recommendation: Start metformin.**\n\n**Brief explanation:** Metformin lowers blood glucose primarily by decreasing hepatic glucose production and improving insulin sensitivity, without stimulating insulin secretion. Therefore, it does not typically cause hypoglycemia, making it a safer choice for a patient with a history of this condition."
+      },
+      {
+        "id": "open_9",
+        "condition": "Malabsorption Syndromes",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 4,
+        "answer": "Based on the provided evidence, **acarbose and miglitol are contraindicated** for this patient due to their malabsorption syndromes [G2, G4].\n\nTherefore, a safe initial choice would be **metformin**, provided renal function is adequate. Metformin is a first-line therapy for type 2 diabetes that is not contraindicated by malabsorption and has a favorable safety profile."
+      },
+      {
+        "id": "open_10",
+        "condition": "Multiple Endocrine Neoplasia Type 2b",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 11,
+        "judge": 5,
+        "answer": "Based on the evidence, a **GLP-1 receptor agonist (e.g., liraglutide, semaglutide)** is a recommended initial choice for this patient.\n\n**Brief Explanation:**\nThe patient has type 2 diabetes with existing microvascular complications (retinal ischemia, skin/foot ulcers) [G6, G8, G10], which are emphasized in the evidence [V5]. GLP-1 RAs are strongly supported for patients with established atherosclerotic cardiovascular disease (ASCVD) or high risk, and they also have proven benefits for slowing kidney disease progression. While the evidence provided focuses on microvascular issues, the patient's **Multiple Endocrine Neoplasia Type 2b (MEN2b)** is the critical factor. MEN2b is primarily associated with medullary thyroid carcinoma (MTC). **GLP-1 RAs are contraindicated in patients with a personal or family history of MTC** due to a potential risk signal in rodent studies. Therefore, they must be avoided in this case.\n\n**Safe Alternative Recommendation:**\nGiven the contraindication to GLP-1 RAs, **a Sodium-Glucose Cotransporter-2 (SGLT2) inhibitor (e.g., empagliflozin, canagliflozin)** is a safe and evidence-based alternative. SGLT2 inhibitors provide robust cardiovascular and renal protection, are effective for glucose lowering, and are not associated with any specific risks in MEN2b. They are also appropriate given the patient's diabetic foot complications [G8, G10], as they may reduce hospitalization for heart failure, a relevant comorbidity.\n\n**Final Answer: Start an SGLT2 inhibitor.** This class effectively lowers glucose and provides organ protection without the specific contraindication posed by the patient's MEN2b."
+      },
+      {
+        "id": "open_11",
+        "condition": "Liver Cirrhosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 3,
+        "answer": "Based on the provided evidence, **acarbose is contraindicated** in this patient due to their liver cirrhosis [G2]. Therefore, it should not be started.\n\nA safer initial choice would be **insulin**, as it is not metabolized by the liver and has no hepatic contraindications. Insulin provides effective glucose control without risking further liver injury, which is a primary concern in cirrhosis.\n\n**Recommendation: Start insulin therapy.**"
+      },
+      {
+        "id": "open_12",
+        "condition": "Colitis, Ulcerative",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the provided evidence, acarbose and miglitol are contraindicated in ulcerative colitis. Therefore, these medications should not be started.\n\n**Recommendation:** A medication from a different class, such as metformin, should be considered as a first-line agent, assuming no contraindications (e.g., severe renal impairment).\n\n**Brief Explanation:** The evidence explicitly states that alpha-glucosidase inhibitors (acarbose and miglitol) are contraindicated in ulcerative colitis. To avoid exacerbating the gastrointestinal condition, a therapy with a different mechanism of action and a safer profile for this patient is required. Metformin is the recommended initial therapy for type 2 diabetes, but a final choice must consider the patient's full clinical picture, including renal function and other comorbidities."
+      },
+      {
+        "id": "open_13",
+        "condition": "Intestinal Pseudo-Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the evidence, **avoid miglitol** due to contraindication with intestinal pseudo-obstruction [G2]. A safer initial choice would be a medication not affecting gut motility, such as **metformin**, provided renal function is adequate. If metformin is unsuitable, consider a DPP-4 inhibitor (e.g., sitagliptin) as a neutral alternative for gastrointestinal issues."
+      },
+      {
+        "id": "open_14",
+        "condition": "Renal Insufficiency",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 8,
+        "judge": 3,
+        "answer": "Based on the evidence provided, which highlights multiple diabetes-related complications (retinal, skin/ulcer, glaucoma suspect), and considering the patient's renal insufficiency, a recommended initial glucose-lowering medication is a **SGLT2 inhibitor (e.g., empagliflozin, dapagliflozin)**.\n\n**Brief explanation:** SGLT2 inhibitors are preferred in patients with type 2 diabetes and renal insufficiency due to their proven cardiorenal benefits, including slowing the progression of chronic kidney disease and reducing the risk of heart failure hospitalization. They are effective regardless of HbA1c levels and have a low risk of hypoglycemia. Dose adjustment may be required based on estimated glomerular filtration rate (eGFR)."
+      },
+      {
+        "id": "open_15",
+        "condition": "Acidosis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 7,
+        "judge": 5,
+        "answer": "Based on the evidence, which indicates multiple diabetes-related complications (glaucoma suspect, skin/foot ulcers, retinal ischemia), and the presence of acidosis, the recommended medication to start is **insulin**.\n\n**Explanation:** Acidosis in a patient with type 2 diabetes is a medical emergency, most likely representing diabetic ketoacidosis (DKA) or a similar acute metabolic complication. Insulin is the cornerstone therapy to correct acidosis by suppressing ketogenesis, lowering blood glucose, and reversing the underlying metabolic derangement. Oral agents are not appropriate in this acute setting. The evidence highlights serious chronic complications (V1, V9, G4, G6, G8, G10), underscoring the need for immediate and effective glycemic control, which insulin provides."
+      },
+      {
+        "id": "open_16",
+        "condition": "Heart Failure",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 5,
+        "answer": "Based on the evidence, for a patient with type 2 diabetes and comorbid heart failure, the recommended glucose-lowering medication to start is a **SGLT2 inhibitor** (e.g., empagliflozin or dapagliflozin).\n\n**Brief Explanation:**\nWhile the provided evidence highlights diabetes complications (retinal, skin/ulcer, glaucoma suspect), it also includes a key trial (V7) on semaglutide, a GLP-1 receptor agonist, showing cardiovascular benefit. However, for the specific comorbidity of **heart failure**, SGLT2 inhibitors have robust evidence for reducing heart failure hospitalizations and cardiovascular death, independent of glucose control. They are the preferred first-line agents in guidelines for patients with type 2 diabetes and established heart failure. GLP-1 agonists (like semaglutide) are excellent for atherosclerotic cardiovascular disease but are not first-line specifically for heart failure outcomes.\n\n**Therefore, start an SGLT2 inhibitor.**"
+      },
+      {
+        "id": "open_17",
+        "condition": "Kidney Diseases",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the evidence, for a patient with type 2 diabetes and kidney disease, a recommended initial glucose-lowering medication is a **SGLT2 inhibitor (e.g., empagliflozin, dapagliflozin)**.\n\n**Brief Explanation:**\nSGLT2 inhibitors are preferred in this context due to their proven renal and cardiovascular protective benefits, which are independent of their glucose-lowering effect. They slow the progression of diabetic kidney disease and reduce the risk of hospitalization for heart failure. Their use is supported by major guidelines for patients with type 2 diabetes and chronic kidney disease. Dose adjustment may be required based on the estimated glomerular filtration rate (eGFR)."
+      },
+      {
+        "id": "open_18",
+        "condition": "Carcinoma, Medullary",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 6,
+        "judge": 2,
+        "answer": "Based on the provided evidence, which highlights microvascular complications (retinal ischemia, skin/foot ulcers) and the need for careful management in type 2 diabetes, the recommended initial glucose-lowering medication is **metformin**, assuming no contraindications.\n\n**Brief Explanation:**\nMetformin is a first-line therapy due to its efficacy, safety profile, and low risk of hypoglycemia. It does not promote weight gain and may offer a neutral or potentially beneficial effect in the context of various comorbidities. The evidence underscores the presence of diabetes-related complications (retinal, skin/foot), making glycemic control crucial, but the co-existing medullary carcinoma does not specifically contraindicate metformin. The priority is to safely lower glucose to mitigate microvascular risks, as indicated by the complications in the evidence. Always assess renal function and other individual patient factors before prescribing."
+      },
+      {
+        "id": "open_19",
+        "condition": "Carcinoma, Neuroendocrine",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 3,
+        "answer": "Based on the evidence, **metformin** is a recommended first-line glucose-lowering medication to start for this patient with type 2 diabetes mellitus and neuroendocrine carcinoma.\n\n**Brief Explanation:**\nMetformin is a foundational therapy for type 2 diabetes. While the provided evidence highlights its primary role in diabetes (V1, V5), a key piece (V9) indicates emerging research into metformin's potential benefits beyond glycemic control, including in oncology. For a patient with a concurrent neuroendocrine carcinoma, starting with metformin offers the dual advantage of effective glucose lowering and the possibility of additional anticancer properties, which is a prudent consideration. It is generally safe, well-tolerated, and does not cause hypoglycemia when used alone.\n\n**Note:** The patient's specific cancer treatment regimen, renal function, and overall clinical status must be assessed to ensure metformin is not contraindicated (e.g., in severe renal impairment or unstable acute illness)."
+      },
+      {
+        "id": "open_20",
+        "condition": "Gastroparesis",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 5,
+        "answer": "Based on the evidence, a recommended glucose-lowering medication to start for this patient with type 2 diabetes and gastroparesis is **insulin**.\n\n**Brief Explanation:**\nThe evidence links gastroparesis to diabetes and its complications ([V1], [V3], [V5], [V7]). Gastroparesis causes unpredictable and delayed stomach emptying, which makes the absorption of oral medications erratic and unreliable. Insulin, administered subcutaneously, bypasses the gastrointestinal tract entirely, providing predictable absorption and allowing for precise, titratable control of blood glucose. This is critical for managing glycaemia in the presence of gastroparesis."
+      },
+      {
+        "id": "open_21",
+        "condition": "Lactation",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 5,
+        "judge": 5,
+        "answer": "Based on the evidence, the recommended glucose-lowering medication to start for a patient with type 2 diabetes who is lactating is **insulin**.\n\n**Brief explanation:**\n- The provided evidence highlights serious diabetes complications (e.g., retinopathy, foot ulcers), emphasizing the need for effective glycemic control.\n- However, safety during lactation is the paramount concern here, which is not directly addressed in the given citations.\n- According to standard clinical guidelines (extending beyond the provided evidence), insulin is the preferred therapy during lactation. It does not pass into breast milk in significant amounts and is considered safe for the infant, while most oral agents lack sufficient safety data.\n\n**Note:** The choice of insulin type (e.g., basal) and dosing requires individualization. The patient should be closely monitored, and a full assessment of her diabetes status, including glycemic levels and complications, is needed."
+      },
+      {
+        "id": "open_22",
+        "condition": "Intestinal Obstruction",
+        "violation": false,
+        "attempts": 1,
+        "has_prov": true,
+        "concepts": 2,
+        "judge": 5,
+        "answer": "Based on the evidence, **avoid acarbose** due to contraindication with intestinal obstruction [G2]. A safer initial choice would be **insulin**, as it is not contraindicated in intestinal obstruction and can provide effective glucose control."
+      }
+    ]
+  }
+}

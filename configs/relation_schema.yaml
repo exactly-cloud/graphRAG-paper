@@ -1,0 +1,93 @@
+# 糖尿病知识图谱 本体 Schema（节点类型 + 关系类型）
+# 对应开题报告 模块1：规定允许的节点类型与边类型。
+# 抽取 Agent（模块2）抽出的三元组必须能映射到此 schema，否则丢弃或标记低置信度。
+
+# ---------------- 节点类型 ----------------
+node_types:
+  Disease:          # 疾病/障碍（SNOMED semantic tag: disorder）
+    sources: [SNOMEDCT, MEDRT]
+    subtypes: [Complication]   # 糖尿病并发症作为 Disease 的子类
+  Finding:          # 临床发现/症状（finding）
+    sources: [SNOMEDCT]
+  LabTest:          # 检验/可观测实体（observable entity）
+    sources: [SNOMEDCT]
+  AnatomicalSite:   # 解剖部位（body structure）
+    sources: [SNOMEDCT]
+  Morphology:       # 形态学异常（morphologic abnormality）
+    sources: [SNOMEDCT]
+  Substance:        # 物质（substance）
+    sources: [SNOMEDCT]
+  Procedure:        # 操作/检查（procedure）
+    sources: [SNOMEDCT]
+  Qualifier:        # 限定值（qualifier value）
+    sources: [SNOMEDCT]
+  Drug:             # 药物（降糖药，RxNorm 成分 + ATC 分类）
+    sources: [RXNORM]
+
+# ---------------- 关系（边）类型 ----------------
+# 核心语义边（论文重点）+ SNOMED 定义性关系
+edge_types:
+  # —— 核心语义边 ——
+  is_a:                # 上下位（分类层级）
+    from: [Disease, Drug, Finding, Procedure]
+    to:   [Disease, Drug, Finding, Procedure]
+  treats:              # 药物治疗疾病
+    from: [Drug]
+    to:   [Disease]
+  contraindicated_with:  # 用药禁忌（★安全校验核心）
+    from: [Drug]
+    to:   [Disease, Finding]
+  causes / due_to:     # 因果（并发症/病因）
+    from: [Disease]
+    to:   [Disease, Substance]
+  progresses_to:       # 进展（并发症轨迹，时序，可选）
+    from: [Disease]
+    to:   [Disease]
+  symptom_of:          # 症状属于某病
+    from: [Finding]
+    to:   [Disease]
+  # —— 文献抽取常见语义边（模块2 从 PubMed 摘要抽取，layer=literature）——
+  risk_factor_for:     # 风险因素 -> 疾病
+    from: [Disease, Finding, Substance, Drug]
+    to:   [Disease]
+  prevents:            # 干预/药物预防疾病或并发症
+    from: [Drug, Procedure]
+    to:   [Disease]
+  worsens:             # 加重/促进疾病进展
+    from: [Disease, Finding, Substance, Drug]
+    to:   [Disease]
+  # —— SNOMED 定义性关系（建图时保留，部分映射到上面核心边）——
+  finding_site:        { from: [Disease, Finding], to: [AnatomicalSite] }
+  associated_morphology: { from: [Disease], to: [Morphology] }
+  causative_agent:     { from: [Disease], to: [Substance] }
+  associated_with:     { from: [Disease], to: [Disease] }
+  pathological_process: { from: [Disease], to: [Qualifier] }
+  interprets:          { from: [Disease], to: [LabTest] }
+  has_interpretation:  { from: [Disease], to: [Qualifier] }
+  clinical_course:     { from: [Disease], to: [Qualifier] }
+  occurrence:          { from: [Disease], to: [Qualifier] }
+
+# ---------------- SNOMED 关系名 → schema 边名 映射 ----------------
+snomed_rel_map:
+  "Is a": is_a
+  "Due to": due_to
+  "Finding site": finding_site
+  "Associated morphology": associated_morphology
+  "Causative agent": causative_agent
+  "Associated with": associated_with
+  "Pathological process": pathological_process
+  "Interprets": interprets
+  "Has interpretation": has_interpretation
+  "Clinical course": clinical_course
+  "Occurrence": occurrence
+
+# ---------------- SNOMED 语义标签 → 节点类型 映射 ----------------
+snomed_tag_map:
+  "disorder": Disease
+  "finding": Finding
+  "observable entity": LabTest
+  "body structure": AnatomicalSite
+  "morphologic abnormality": Morphology
+  "substance": Substance
+  "procedure": Procedure
+  "qualifier value": Qualifier

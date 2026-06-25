@@ -1,0 +1,219 @@
+rxcui,ingredient,ci_disease,ci_code,source
+400008,"insulin glulisine, human",Drug Hypersensitivity,D004342,DISEASE
+400008,"insulin glulisine, human",Hypoglycemia,D007003,DISEASE
+86009,insulin lispro,Drug Hypersensitivity,D004342,DISEASE
+86009,insulin lispro,Hypoglycemia,D007003,DISEASE
+51428,"insulin aspart, human",Hypoglycemia,D007003,DISEASE
+221109,"insulin, regular, pork",Drug Hypersensitivity,D004342,DISEASE
+274783,insulin glargine,Hypoglycemia,D007003,DISEASE
+274783,insulin glargine,Drug Hypersensitivity,D004342,DISEASE
+1670007,insulin degludec,Drug Hypersensitivity,D004342,DISEASE
+1670007,insulin degludec,Hypoglycemia,D007003,DISEASE
+1858994,,Drug Hypersensitivity,D004342,DISEASE
+1858994,,Hypoglycemia,D007003,DISEASE
+1727493,,Drug Hypersensitivity,D004342,DISEASE
+1727493,,Hypoglycemia,D007003,DISEASE
+1727493,,Pregnancy,D011247,DISEASE
+1727493,,Multiple Endocrine Neoplasia Type 2a,D018813,DISEASE
+1727493,,Multiple Endocrine Neoplasia Type 2b,D018814,DISEASE
+253182,"insulin, regular, human",Drug Hypersensitivity,D004342,DISEASE
+253182,"insulin, regular, human",Hypoglycemia,D007003,DISEASE
+6809,metformin,Acidosis,D000138,DISEASE
+6809,metformin,Drug Hypersensitivity,D004342,DISEASE
+6809,metformin,Liver Diseases,D008107,DISEASE
+6809,metformin,Diabetic Ketoacidosis,D016883,DISEASE
+6809,metformin,Renal Insufficiency,D051437,DISEASE
+4815,glyburide,"Diabetes Mellitus, Type 1",D003922,DISEASE
+4815,glyburide,Drug Hypersensitivity,D004342,DISEASE
+4815,glyburide,Diabetic Ketoacidosis,D016883,DISEASE
+2404,chlorpropamide,"Diabetes Mellitus, Type 1",D003922,DISEASE
+2404,chlorpropamide,Drug Hypersensitivity,D004342,DISEASE
+2404,chlorpropamide,Lactation,D007774,DISEASE
+2404,chlorpropamide,Pregnancy,D011247,DISEASE
+2404,chlorpropamide,Diabetic Ketoacidosis,D016883,DISEASE
+10635,tolbutamide,Hypersensitivity,D006967,DISEASE
+10635,tolbutamide,Pregnancy,D011247,DISEASE
+10635,tolbutamide,Diabetic Ketoacidosis,D016883,DISEASE
+10633,tolazamide,Hypersensitivity,D006967,DISEASE
+10633,tolazamide,Pregnancy,D011247,DISEASE
+10633,tolazamide,Diabetic Ketoacidosis,D016883,DISEASE
+4821,glipizide,"Diabetes Mellitus, Type 1",D003922,DISEASE
+4821,glipizide,Drug Hypersensitivity,D004342,DISEASE
+4821,glipizide,Diabetic Ketoacidosis,D016883,DISEASE
+25789,glimepiride,Hypersensitivity,D006967,DISEASE
+25789,glimepiride,Diabetic Ketoacidosis,D016883,DISEASE
+173,acetohexamide,Pregnancy,D011247,DISEASE
+614348,,Acidosis,D000138,DISEASE
+614348,,Drug Hypersensitivity,D004342,DISEASE
+614348,,Liver Diseases,D008107,DISEASE
+614348,,Diabetic Ketoacidosis,D016883,DISEASE
+614348,,Renal Insufficiency,D051437,DISEASE
+614348,,Heart Failure,D006333,DISEASE
+606253,,Hypersensitivity,D006967,DISEASE
+606253,,Diabetic Ketoacidosis,D016883,DISEASE
+606253,,Drug Hypersensitivity,D004342,DISEASE
+606253,,Heart Failure,D006333,DISEASE
+606253,,Liver Diseases,D008107,DISEASE
+607999,,Acidosis,D000138,DISEASE
+607999,,Drug Hypersensitivity,D004342,DISEASE
+607999,,Liver Diseases,D008107,DISEASE
+607999,,Diabetic Ketoacidosis,D016883,DISEASE
+607999,,Renal Insufficiency,D051437,DISEASE
+607999,,Heart Failure,D006333,DISEASE
+647235,,Hypersensitivity,D006967,DISEASE
+647235,,Diabetic Ketoacidosis,D016883,DISEASE
+647235,,Drug Hypersensitivity,D004342,DISEASE
+647235,,Heart Failure,D006333,DISEASE
+647235,,Liver Diseases,D008107,DISEASE
+729717,,Acidosis,D000138,DISEASE
+729717,,Drug Hypersensitivity,D004342,DISEASE
+729717,,Liver Diseases,D008107,DISEASE
+729717,,Diabetic Ketoacidosis,D016883,DISEASE
+729717,,Renal Insufficiency,D051437,DISEASE
+729717,,"Diabetes Mellitus, Type 1",D003922,DISEASE
+1368402,,Hypersensitivity,D006967,DISEASE
+1368402,,Drug Hypersensitivity,D004342,DISEASE
+1368402,,Heart Failure,D006333,DISEASE
+1368402,,Liver Diseases,D008107,DISEASE
+1043562,,Acidosis,D000138,DISEASE
+1043562,,Drug Hypersensitivity,D004342,DISEASE
+1043562,,Liver Diseases,D008107,DISEASE
+1043562,,Diabetic Ketoacidosis,D016883,DISEASE
+1043562,,Renal Insufficiency,D051437,DISEASE
+1243019,,Drug Hypersensitivity,D004342,DISEASE
+1243019,,Acidosis,D000138,DISEASE
+1243019,,Liver Diseases,D008107,DISEASE
+1243019,,Diabetic Ketoacidosis,D016883,DISEASE
+1243019,,Renal Insufficiency,D051437,DISEASE
+1368384,,Hypersensitivity,D006967,DISEASE
+1368384,,Acidosis,D000138,DISEASE
+1368384,,Drug Hypersensitivity,D004342,DISEASE
+1368384,,Liver Diseases,D008107,DISEASE
+1368384,,Diabetic Ketoacidosis,D016883,DISEASE
+1368384,,Renal Insufficiency,D051437,DISEASE
+802646,,Acidosis,D000138,DISEASE
+802646,,Drug Hypersensitivity,D004342,DISEASE
+802646,,Liver Diseases,D008107,DISEASE
+802646,,Diabetic Ketoacidosis,D016883,DISEASE
+802646,,Renal Insufficiency,D051437,DISEASE
+802646,,"Diabetes Mellitus, Type 1",D003922,DISEASE
+1486436,,Drug Hypersensitivity,D004342,DISEASE
+1486436,,Renal Insufficiency,D051437,DISEASE
+1486436,,Acidosis,D000138,DISEASE
+1486436,,Liver Diseases,D008107,DISEASE
+1486436,,Diabetic Ketoacidosis,D016883,DISEASE
+1545149,,Drug Hypersensitivity,D004342,DISEASE
+1545149,,Kidney Diseases,D007674,DISEASE
+1545149,,"Kidney Failure, Chronic",D007676,DISEASE
+1545149,,Acidosis,D000138,DISEASE
+1545149,,Liver Diseases,D008107,DISEASE
+1545149,,Diabetic Ketoacidosis,D016883,DISEASE
+1545149,,Renal Insufficiency,D051437,DISEASE
+1598392,,Drug Hypersensitivity,D004342,DISEASE
+1598392,,Kidney Diseases,D007674,DISEASE
+1664314,,Drug Hypersensitivity,D004342,DISEASE
+1664314,,Kidney Diseases,D007674,DISEASE
+1664314,,Acidosis,D000138,DISEASE
+1664314,,Liver Diseases,D008107,DISEASE
+1664314,,Diabetic Ketoacidosis,D016883,DISEASE
+1664314,,Renal Insufficiency,D051437,DISEASE
+1727500,,Drug Hypersensitivity,D004342,DISEASE
+1727500,,Renal Insufficiency,D051437,DISEASE
+1992684,,Drug Hypersensitivity,D004342,DISEASE
+1992684,,"Kidney Failure, Chronic",D007676,DISEASE
+1992684,,Renal Insufficiency,D051437,DISEASE
+1992684,,Acidosis,D000138,DISEASE
+1992684,,Liver Diseases,D008107,DISEASE
+1992684,,Diabetic Ketoacidosis,D016883,DISEASE
+1992825,,Drug Hypersensitivity,D004342,DISEASE
+1992825,,"Kidney Failure, Chronic",D007676,DISEASE
+1992825,,Renal Insufficiency,D051437,DISEASE
+1992825,,"Diabetes Mellitus, Type 1",D003922,DISEASE
+1992825,,Diabetic Ketoacidosis,D016883,DISEASE
+2117292,,Drug Hypersensitivity,D004342,DISEASE
+2117292,,Renal Insufficiency,D051437,DISEASE
+2117292,,Acidosis,D000138,DISEASE
+2117292,,Liver Diseases,D008107,DISEASE
+2117292,,Diabetic Ketoacidosis,D016883,DISEASE
+2281864,,Drug Hypersensitivity,D004342,DISEASE
+2281864,,Kidney Diseases,D007674,DISEASE
+2281864,,Acidosis,D000138,DISEASE
+2281864,,Liver Diseases,D008107,DISEASE
+2281864,,Diabetic Ketoacidosis,D016883,DISEASE
+2281864,,Renal Insufficiency,D051437,DISEASE
+16681,acarbose,"Colitis, Ulcerative",D003093,DISEASE
+16681,acarbose,Digestive System Abnormalities,D004065,DISEASE
+16681,acarbose,Drug Hypersensitivity,D004342,DISEASE
+16681,acarbose,Intestinal Obstruction,D007415,DISEASE
+16681,acarbose,Liver Cirrhosis,D008103,DISEASE
+16681,acarbose,Malabsorption Syndromes,D008286,DISEASE
+16681,acarbose,Diabetic Ketoacidosis,D016883,DISEASE
+30009,miglitol,"Colitis, Ulcerative",D003093,DISEASE
+30009,miglitol,Digestive System Abnormalities,D004065,DISEASE
+30009,miglitol,Drug Hypersensitivity,D004342,DISEASE
+30009,miglitol,Intestinal Pseudo-Obstruction,D007418,DISEASE
+30009,miglitol,Malabsorption Syndromes,D008286,DISEASE
+30009,miglitol,Diabetic Ketoacidosis,D016883,DISEASE
+72610,troglitazone,Drug Hypersensitivity,D004342,DISEASE
+84108,rosiglitazone,Drug Hypersensitivity,D004342,DISEASE
+84108,rosiglitazone,Heart Failure,D006333,DISEASE
+84108,rosiglitazone,Liver Diseases,D008107,DISEASE
+33738,pioglitazone,Drug Hypersensitivity,D004342,DISEASE
+33738,pioglitazone,Heart Failure,D006333,DISEASE
+33738,pioglitazone,Liver Diseases,D008107,DISEASE
+593411,sitagliptin,"Diabetes Mellitus, Type 1",D003922,DISEASE
+593411,sitagliptin,Diabetic Ketoacidosis,D016883,DISEASE
+593411,sitagliptin,Drug Hypersensitivity,D004342,DISEASE
+857974,saxagliptin,Drug Hypersensitivity,D004342,DISEASE
+1368001,alogliptin,Hypersensitivity,D006967,DISEASE
+1100699,linagliptin,Drug Hypersensitivity,D004342,DISEASE
+1189803,,Drug Hypersensitivity,D004342,DISEASE
+1189803,,Lactation,D007774,DISEASE
+1189803,,Pregnancy,D011247,DISEASE
+1189803,,Liver Failure,D017093,DISEASE
+1189803,,"Diabetes Mellitus, Type 1",D003922,DISEASE
+1189803,,Diabetic Ketoacidosis,D016883,DISEASE
+60548,exenatide,"Diabetes Mellitus, Type 1",D003922,DISEASE
+60548,exenatide,Drug Hypersensitivity,D004342,DISEASE
+60548,exenatide,Diabetic Ketoacidosis,D016883,DISEASE
+475968,liraglutide,Drug Hypersensitivity,D004342,DISEASE
+475968,liraglutide,Pregnancy,D011247,DISEASE
+475968,liraglutide,Multiple Endocrine Neoplasia Type 2a,D018813,DISEASE
+475968,liraglutide,Multiple Endocrine Neoplasia Type 2b,D018814,DISEASE
+1440051,lixisenatide,Drug Hypersensitivity,D004342,DISEASE
+1534763,albiglutide,Thyroid Neoplasms,D013964,DISEASE
+1534763,albiglutide,"Carcinoma, Medullary",D018276,DISEASE
+1534763,albiglutide,Multiple Endocrine Neoplasia Type 2a,D018813,DISEASE
+1534763,albiglutide,Multiple Endocrine Neoplasia Type 2b,D018814,DISEASE
+1551291,dulaglutide,Drug Hypersensitivity,D004342,DISEASE
+1551291,dulaglutide,Thyroid Neoplasms,D013964,DISEASE
+1551291,dulaglutide,"Carcinoma, Neuroendocrine",D018278,DISEASE
+1551291,dulaglutide,Multiple Endocrine Neoplasia Type 2a,D018813,DISEASE
+1991302,semaglutide,Drug Hypersensitivity,D004342,DISEASE
+1991302,semaglutide,Thyroid Neoplasms,D013964,DISEASE
+1991302,semaglutide,"Carcinoma, Neuroendocrine",D018278,DISEASE
+1991302,semaglutide,Multiple Endocrine Neoplasia Type 2a,D018813,DISEASE
+1991302,semaglutide,Multiple Endocrine Neoplasia Type 2b,D018814,DISEASE
+1488564,dapagliflozin,Drug Hypersensitivity,D004342,DISEASE
+1488564,dapagliflozin,Renal Insufficiency,D051437,DISEASE
+1373458,canagliflozin,Drug Hypersensitivity,D004342,DISEASE
+1373458,canagliflozin,Kidney Diseases,D007674,DISEASE
+1373458,canagliflozin,"Kidney Failure, Chronic",D007676,DISEASE
+1545653,empagliflozin,Drug Hypersensitivity,D004342,DISEASE
+1545653,empagliflozin,Kidney Diseases,D007674,DISEASE
+1992672,ertugliflozin,Drug Hypersensitivity,D004342,DISEASE
+1992672,ertugliflozin,"Kidney Failure, Chronic",D007676,DISEASE
+1992672,ertugliflozin,Renal Insufficiency,D051437,DISEASE
+73044,repaglinide,"Diabetes Mellitus, Type 1",D003922,DISEASE
+73044,repaglinide,Drug Hypersensitivity,D004342,DISEASE
+73044,repaglinide,Diabetic Ketoacidosis,D016883,DISEASE
+274332,nateglinide,"Diabetes Mellitus, Type 1",D003922,DISEASE
+274332,nateglinide,Drug Hypersensitivity,D004342,DISEASE
+274332,nateglinide,Diabetic Ketoacidosis,D016883,DISEASE
+139953,pramlintide,Drug Hypersensitivity,D004342,DISEASE
+139953,pramlintide,Hypoglycemia,D007003,DISEASE
+139953,pramlintide,Gastroparesis,D018589,DISEASE
+2601723,tirzepatide,Thyroid Neoplasms,D013964,DISEASE
+2601723,tirzepatide,"Carcinoma, Medullary",D018276,DISEASE
+2601723,tirzepatide,Multiple Endocrine Neoplasia Type 2a,D018813,DISEASE
+2642217,donislecel,Pregnancy,D011247,DISEASE

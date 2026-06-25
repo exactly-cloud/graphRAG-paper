@@ -1,0 +1,796 @@
+{
+  "task": "yesno",
+  "data": "pubmedqa",
+  "summary": {
+    "llm": {
+      "acc": 0.5926,
+      "n": 27,
+      "unparsed": 1,
+      "sec": 24.5
+    },
+    "vector": {
+      "acc": 0.5185,
+      "n": 27,
+      "unparsed": 0,
+      "sec": 22.3
+    },
+    "graph": {
+      "acc": 0.4815,
+      "n": 27,
+      "unparsed": 0,
+      "sec": 19.8
+    },
+    "hybrid": {
+      "acc": 0.3704,
+      "n": 27,
+      "unparsed": 0,
+      "sec": 15.1
+    }
+  },
+  "details": {
+    "llm": [
+      {
+        "id": "pubmedqa_0",
+        "pred": "yes",
+        "gold": "no",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_1",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_2",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_3",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_4",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_5",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_6",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_7",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_8",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_9",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_10",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_11",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_12",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_13",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_14",
+        "pred": "no",
+        "gold": "yes",
+        "correct": false,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_15",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_16",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_17",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_18",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_19",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_20",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_21",
+        "pred": "yes",
+        "gold": "maybe",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_22",
+        "pred": "",
+        "gold": "yes",
+        "correct": false,
+        "raw": "Based on the research context provided, telmisartan appears to have a protective effect on the liver in diabetic rats, as indicated by a significant difference in hepatocyte numerical density between the diabetic control group and the telmisartan-treated group. Additionally, the absence of TGF-beta "
+      },
+      {
+        "id": "pubmedqa_23",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_24",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_25",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_26",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      }
+    ],
+    "vector": [
+      {
+        "id": "pubmedqa_0",
+        "pred": "yes",
+        "gold": "no",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_1",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_2",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_3",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_4",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_5",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_6",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_7",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_8",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_9",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_10",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_11",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_12",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_13",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_14",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_15",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_16",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_17",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_18",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_19",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_20",
+        "pred": "yes",
+        "gold": "no",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_21",
+        "pred": "yes",
+        "gold": "maybe",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_22",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "Based on the evidence provided, particularly the research context describing the study on telmisartan in diabetic rats, which shows that telmisartan treatment resulted in no immunoreactivity for TGF-beta in liver sections (a key mediator of fibrosis), and a significant difference in hepatocyte numer"
+      },
+      {
+        "id": "pubmedqa_23",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_24",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_25",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_26",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      }
+    ],
+    "graph": [
+      {
+        "id": "pubmedqa_0",
+        "pred": "yes",
+        "gold": "no",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_1",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_2",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_3",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_4",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_5",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_6",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_7",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_8",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_9",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_10",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_11",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_12",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "Based on the research context provided, the study indicates that individuals with type 1 diabetes initially consumed a high atherogenic diet, as noted in the background. However, over the 7-year period, there were minor improvements, such as reduced intake of saturated fat and cholesterol and increa"
+      },
+      {
+        "id": "pubmedqa_13",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_14",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_15",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_16",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_17",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_18",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_19",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_20",
+        "pred": "yes",
+        "gold": "no",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_21",
+        "pred": "yes",
+        "gold": "maybe",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_22",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "Based on the evidence provided, the research context indicates that telmisartan treatment in diabetic rats resulted in no immunoreactivity for TGF-beta, which is a key mediator of fibrosis, and showed a significant difference in hepatocyte numerical density compared to diabetic controls. This sugges"
+      },
+      {
+        "id": "pubmedqa_23",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_24",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_25",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_26",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "pubmedqa_0",
+        "pred": "yes",
+        "gold": "no",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_1",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_2",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_3",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_4",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_5",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_6",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_7",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_8",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_9",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_10",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_11",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_12",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_13",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_14",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_15",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_16",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_17",
+        "pred": "yes",
+        "gold": "yes",
+        "correct": true,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_18",
+        "pred": "no",
+        "gold": "no",
+        "correct": true,
+        "raw": "no"
+      },
+      {
+        "id": "pubmedqa_19",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_20",
+        "pred": "yes",
+        "gold": "no",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_21",
+        "pred": "yes",
+        "gold": "maybe",
+        "correct": false,
+        "raw": "yes"
+      },
+      {
+        "id": "pubmedqa_22",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_23",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_24",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_25",
+        "pred": "maybe",
+        "gold": "yes",
+        "correct": false,
+        "raw": "maybe"
+      },
+      {
+        "id": "pubmedqa_26",
+        "pred": "maybe",
+        "gold": "no",
+        "correct": false,
+        "raw": "maybe"
+      }
+    ]
+  }
+}

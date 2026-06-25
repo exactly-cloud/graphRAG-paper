@@ -1,0 +1,116 @@
+rxcui,ingredient,atc_code,atc_class,category,brand_names
+400008,"insulin glulisine, human",A10AB06,"Insulins and analogues for injection, fast-acting",insulin,Apidra
+1458224,,A10AB30,"Insulins and analogues for injection, fast-acting",insulin,
+1429331,,A10AC30,"Insulins and analogues for injection, intermediate-acting",insulin,
+86009,insulin lispro,A10AD04,"Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting",insulin,Admelog; Humalog; Humalog Mix; Lispro PRC; Lyumjev
+51428,"insulin aspart, human",A10AD05,"Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting",insulin,Fiasp; Kirsty; Merilog; NovoLog; NovoLog Mix; Ryzodeg
+1456746,,A10AD06,"Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting",insulin,
+1429323,,A10AD30,"Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting",insulin,
+91458,,A10AE02,"Insulins and analogues for injection, long-acting",insulin,
+221109,"insulin, regular, pork",A10AE03,"Insulins and analogues for injection, long-acting",insulin,Hypurin Porcine Biphasic Isophane; Hypurin Porcine Neutral; Iletin II Regular Pork; Initard 50/50 (pork); Pork Actrapid; Pork Mixtard 30
+274783,insulin glargine,A10AE04,"Insulins and analogues for injection, long-acting",insulin,Basaglar; Lantus; Rezvoglar; Semglee; Soliqua; Toujeo
+139825,insulin detemir,A10AE05,"Insulins and analogues for injection, long-acting",insulin,Levemir
+1670007,insulin degludec,A10AE06,"Insulins and analogues for injection, long-acting",insulin,Ryzodeg; Tresiba; Xultophy
+2740394,insulin icodec,A10AE07,"Insulins and analogues for injection, long-acting",insulin,Awiqli
+1429337,,A10AE30,"Insulins and analogues for injection, long-acting",insulin,
+1858994,,A10AE54,"Insulins and analogues for injection, long-acting",insulin,
+1727493,,A10AE56,"Insulins and analogues for injection, long-acting",insulin,
+2733691,,A10AE57,"Insulins and analogues for injection, long-acting",insulin,
+253182,"insulin, regular, human",A10AF01,Insulins and analogues for inhalation,insulin,Afrezza; Human Actrapid; Human Actrapid Penfill; Human Mixtard; Humulin; Humulin R; Humulin S; Myxredlin; Novolin; Novolin R
+8129,phenformin,A10BA01,biguanide blood glucose lower drugs,oral/non-insulin,
+6809,metformin,A10BA02,biguanide blood glucose lower drugs,oral/non-insulin,Actoplus Met; Avandamet; Fortamet; Glucamet; Glucophage; Glucovance; Glumetza; Invokamet; Janumet; Jentadueto
+1803,,A10BA03,biguanide blood glucose lower drugs,oral/non-insulin,
+4815,glyburide,A10BB01,Sulfonylureas,oral/non-insulin,Calabren; Daonil; Diabeta; Diabetamide; Euglucon; Glucovance; Glyburase; Glycron; Glynase; Libanil
+2404,chlorpropamide,A10BB02,Sulfonylureas,oral/non-insulin,Diabinese; Insulase
+10635,tolbutamide,A10BB03,Sulfonylureas,oral/non-insulin,Orinase; Orinase Diagnostic; Tol-Tab
+102846,glibornuride,A10BB04,Sulfonylureas,oral/non-insulin,
+10633,tolazamide,A10BB05,Sulfonylureas,oral/non-insulin,Tolinase
+2068,carbutamide,A10BB06,Sulfonylureas,oral/non-insulin,
+4821,glipizide,A10BB07,Sulfonylureas,oral/non-insulin,Glibenese; Glucotrol; Metaglip; Minidiab
+25793,gliquidone,A10BB08,Sulfonylureas,oral/non-insulin,
+4816,gliclazide,A10BB09,Sulfonylureas,oral/non-insulin,
+190414,,A10BB10,Sulfonylureas,oral/non-insulin,
+25795,,A10BB11,Sulfonylureas,oral/non-insulin,
+25789,glimepiride,A10BB12,Sulfonylureas,oral/non-insulin,Amaryl; Avandaryl; Duetact
+173,acetohexamide,A10BB31,Sulfonylureas,oral/non-insulin,Dymelor
+102848,glymidine,A10BC01,Sulfonamides (heterocyclic),oral/non-insulin,Gondafon
+1431047,,A10BD01,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1431024,,A10BD02,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+614348,,A10BD03,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+606253,,A10BD04,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+607999,,A10BD05,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+647235,,A10BD06,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+729717,,A10BD07,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1431025,,A10BD08,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1368402,,A10BD09,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1043562,,A10BD10,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1243019,,A10BD11,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1431048,,A10BD12,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1368384,,A10BD13,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+802646,,A10BD14,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1486436,,A10BD15,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1545149,,A10BD16,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1598393,,A10BD17,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1598394,,A10BD18,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1598392,,A10BD19,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1664314,,A10BD20,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1727500,,A10BD21,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1996270,,A10BD22,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1992684,,A10BD23,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+1992825,,A10BD24,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2117292,,A10BD25,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2473246,,A10BD26,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2281864,,A10BD27,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2672839,,A10BD28,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2672862,,A10BD29,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2703526,,A10BD30,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2733694,,A10BD31,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2733688,,A10BD32,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2733697,,A10BD33,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+2733693,,A10BD34,Combinations of oral blood glucose lowering drugs,oral/non-insulin,
+16681,acarbose,A10BF01,Alpha glucosidase inhibitors,oral/non-insulin,Precose
+30009,miglitol,A10BF02,Alpha glucosidase inhibitors,oral/non-insulin,Glyset
+137665,,A10BF03,Alpha glucosidase inhibitors,oral/non-insulin,
+72610,troglitazone,A10BG01,Thiazolidinediones,oral/non-insulin,Rezulin; Romozin
+84108,rosiglitazone,A10BG02,Thiazolidinediones,oral/non-insulin,Avandamet; Avandaryl; Avandia
+33738,pioglitazone,A10BG03,Thiazolidinediones,oral/non-insulin,Actoplus Met; Actos; Duetact; Oseni
+972177,,A10BG04,Thiazolidinediones,oral/non-insulin,
+593411,sitagliptin,A10BH01,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,Brynovin; Janumet; Januvia; Juvisync; Steglujan; Zituvimet; Zituvio
+596554,vildagliptin,A10BH02,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,
+857974,saxagliptin,A10BH03,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,Kombiglyze; Onglyza; Qtern; Qternmet
+1368001,alogliptin,A10BH04,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,Kazano; Nesina; Oseni
+1100699,linagliptin,A10BH05,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,Glyxambi; Jentadueto; Tradjenta; Trijardy
+1382216,,A10BH06,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,
+1836729,,A10BH07,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,
+1446906,,A10BH08,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,
+1189803,,A10BH51,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,
+2117288,,A10BH52,Dipeptidyl peptidase 4 (DPP-4) inhibitors,oral/non-insulin,
+60548,exenatide,A10BJ01,Glucagon-like peptide-1 (GLP-1) analogues,oral/non-insulin,Bydureon; Byetta
+475968,liraglutide,A10BJ02,Glucagon-like peptide-1 (GLP-1) analogues,oral/non-insulin,Saxenda; Victoza; Xultophy
+1440051,lixisenatide,A10BJ03,Glucagon-like peptide-1 (GLP-1) analogues,oral/non-insulin,Adlyxin; Soliqua
+1534763,albiglutide,A10BJ04,Glucagon-like peptide-1 (GLP-1) analogues,oral/non-insulin,Tanzeum
+1551291,dulaglutide,A10BJ05,Glucagon-like peptide-1 (GLP-1) analogues,oral/non-insulin,Trulicity
+1991302,semaglutide,A10BJ06,Glucagon-like peptide-1 (GLP-1) analogues,oral/non-insulin,Ozempic; Rybelsus; Wegovy
+2169686,,A10BJ07,Glucagon-like peptide-1 (GLP-1) analogues,oral/non-insulin,
+1488564,dapagliflozin,A10BK01,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,Farxiga; Qtern; Qternmet; Xigduo
+1373458,canagliflozin,A10BK02,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,Invokamet; Invokana
+1545653,empagliflozin,A10BK03,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,Glyxambi; Jardiance; Synjardy; Trijardy
+1992672,ertugliflozin,A10BK04,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,Segluromet; Steglatro; Steglujan
+1352603,,A10BK05,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,
+2638675,sotagliflozin,A10BK06,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,Inpefa
+1036153,,A10BK07,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,
+2627044,bexagliflozin,A10BK08,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,Bexacat; Brenzavvy
+2686302,,A10BK09,Sodium-glucose co-transporter 2 (SGLT2) inhibitors,oral/non-insulin,
+26344,guar gum,A10BX01,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,
+73044,repaglinide,A10BX02,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,NovoNorm; PrandiMet; Prandin
+274332,nateglinide,A10BX03,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,Starlix
+139953,pramlintide,A10BX05,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,Symlin
+18880,benfluorex,A10BX06,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,
+274598,,A10BX08,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,
+1406596,,A10BX15,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,
+2601723,tirzepatide,A10BX16,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,Mounjaro; Zepbound
+2631871,,A10BX17,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,
+2223793,,A10BX18,"Other blood glucose lowering drugs, excl. insulins",oral/non-insulin,
+38386,tolrestat,A10XA01,Aldose reductase inhibitors used in diabetes,other,
+2621880,teplizumab,A10XX01,Other drugs used in diabetes,other,Tzield
+2642217,donislecel,A10XX02,Other drugs used in diabetes,other,Lantidra

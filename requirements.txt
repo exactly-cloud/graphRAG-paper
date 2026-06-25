@@ -1,0 +1,39 @@
+# ============================================================
+# 融合本体推理的 Agentic GraphRAG - 依赖清单
+# 环境: Python 3.11 (conda env: graphrag)
+# 分阶段安装, 避免一次性拉取过重依赖
+# ============================================================
+
+# ---------- 阶段0: 数据获取 (当前阶段, 先装这些) ----------
+# 注意: 国内访问 huggingface.co 不通, hf-mirror 当前也失效。
+# 评测集改用 ModelScope(魔搭) + GitHub 直连下载, 见 download_eval_datasets.py
+requests>=2.32          # PubMed E-utilities / 魔搭文件下载
+biopython>=1.84         # Entrez 封装, 方便抓取 PubMed
+modelscope>=1.37        # 魔搭数据集 (MedQA / MedMCQA)
+pandas>=2.2             # 数据处理 / 读 parquet
+pyarrow>=15.0           # parquet 解析
+tqdm>=4.66              # 进度条
+lxml>=5.0               # 解析 PubMed XML
+python-dotenv>=1.0      # 管理 API key / 路径配置
+
+# ---------- 阶段1: 本体处理与实体链接 ----------
+pyyaml>=6.0             # 关系 schema 解析 (configs/relation_schema.yaml)
+
+# ---------- 阶段4: 本体推理校验层 (核心) ----------
+owlready2>=0.50         # OWL 本体加载 + HermiT DL 推理
+# 另需 Java: conda install -n graphrag -c conda-forge openjdk=17 (HermiT 运行时)
+
+# ---------- 阶段2: 知识图谱与向量库 ----------
+networkx>=3.5           # 知识图谱内存结构 / 多跳遍历
+neo4j>=6.0             # Neo4j Python driver (可选: 可视化/Cypher)
+faiss-cpu>=1.8          # 向量索引 (PubMed 摘要检索)
+numpy>=1.26             # 向量运算
+
+# ---------- 阶段3: LLM / Agentic 编排 / 检索 ----------
+# embedding/对话用硅基流动 OpenAI 兼容 API (requests 实现, 见 src/llm.py), 免装 torch
+langgraph>=1.2          # 模块5 Agentic 状态机编排
+
+# ---------- 阶段4: 评测 ----------
+# ragas>=0.2            # faithfulness / answer relevance
+# rouge-score>=0.1
+# bert-score>=0.3
